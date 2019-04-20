@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Force Graph</title>
+    <style>
+        h1{
+            padding: 10px;
+            text-align: center;
+        }
+        
+/*
+        .hovercard {
+            position: absolute;
+            max-width: 400px;
+            height: auto;
+            padding: 5px;
+            background-color: aliceblue;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            pointer-events: none;
+            font: 12px sans-serif;
+        }
+*/
+        path.link{
+            fill: none;
+            stroke: #000000;
+            stroke-width: 2px;
+        }
+        
+        path.link.win{
+            stroke: #a6d96a;
+        }
+        
+        path.link.loss{
+            stroke: #ca0020;
+        }
+        
+        .label{
+            pointer-events: none;
+            font: 8px sans-serif;
+            text-transform: uppercase;
+            color: #000;
+        }
+        
+    </style>
+</head>
+    
+<body>
+    <h1>2018 NBA PLAYOFFS</h1>
+    
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    
+    <script>
+    var margin = 0.9,
+        width = window.innerWidth*margin,
+        height = window.innerHeight*margin;
+        
+        d3.csv("NBA_playoffs.csv", function(error, links){
+            //////////////////////////
+            var nodes = {};
+            //////////////////////////
+            links.forEach(function(link) {
+                    console.log(link.source);
+                    console.log(link.target);
+                    console.log(link.name);
+                    console.log(link.outcome);
+                    console.log(link.game_number);
+                    link.source = nodes[link.source] || 
+                        (nodes[link.source] = {name: link.name});
+                    link.target = nodes[link.target] ||
+                        (nodes[link.target] = {name: link.name});
+//                    link.value = +link.value; 
+            });
+            
+//        var hovercard = d3.select("body").append("div")
+//            .attr("class", "hovercard")
+//            .style("opacity", 0)
+//            .style("width", 400);
+
+            
+        console.log(nodes)
+        //add an SVG to the body of the page
+        var svg = d3.select('body').append('svg')
+            .attr('width', width)
+            .attr('height', height);
+            
+            
+        //Set up definitions for markers
+        svg.append("svg:defs").selectAll("marker")
+            .data(['end'])
+            .enter().append("svg:marker")
+            .attr("id", String)
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 24) //Adjusts the location of the marker for x
+            .attr("refY", -1)//Adjusts the location of the marker for y
+            .attr("markerWidth", 4) //Sets the width of the maker
+            .attr("markerHeight", 4) //Sets the height of the marker
+            .attr("orient", "auto")
+            .attr("fill", "#404040") //Sets the color for the marker
+            .append("svg:path")
+            .attr("d", "M0,-5L10,0L0,5");
+            
+            
+        //Creating the path from the links, notice no link var this time
+        //If the path gets created before the nodes, then the nodes will be on top of the paths
+        var path = svg.append("svg:g").selectAll("path")
+            .data(links)
+            .enter().append("svg:path")
+            .attr("class", function(d) {return "link "+d.outcome; })
+            .attr("marker-end", "url(#end)");
+
+        //Add the nodes
+        var node = svg.selectAll('.node')
+            .data(d3.values(nodes))
+            .enter().append('g')
+            .attr('class', 'node');
+            
+        node.append("image")
+            .attr("xlink:href", function(d){
+                return "nba_img/"+d.name.toLowerCase()+".jpg"; })
+            .attr("x", function(d) {return -25;})
+            .attr("y", function(d) {return -25;})
+            .attr("height", 30)
+            .attr("width", 30)
+            
+        node.append("text")
+            .attr("text-anchor", "middle")
+            .attr("dy", ".35em")
+            .attr("y", -27)
+            .attr("class", "label")
+            .text(function(d) {return d.name;});
+
+        //Creates the force layout
+        var force = d3.layout.force()
+            .size([width, height]) //sets the size of the force layout
+            .nodes(d3.values(nodes)) //Adds the nodes array to the force layout
+            .links(links)
+            .on("tick", tick)
+            .linkDistance(100)
+            .charge(-300)
+            .start(); //Actually starts the graph
+        
+            
+        function tick(){
+            //Updates the nodes x and y values when dragged
+            node.attr("transform", function(d){
+                return "translate("+d.x+","+d.y+")";})
+                .call(force.drag);
+
+            path.attr("d", function(d, i){
+                
+                var curve = d.game_number * 0.9;
+//                console.log(d.battle_number);
+
+                var dx = d.target.x - d.source.x,
+                    dy = d.target.y - d.source.y,
+                    dr = Math.sqrt(dx * dx * curve + dy * dy * curve);
+
+                return "M" +
+                    d.source.x + "," +
+                    d.source.y + "A" +
+                    dr + "," + dr + " 0 0,1 " +
+                    d.target.x + "," + 
+                    d.target.y;
+             });
+            
+//            path.on("mouseover", function(d){
+//                hovercard.transition()
+//                    .duration(300)
+//                    .style("opacity", 1)
+//                
+//                    var tip = 
+//                        '<h2>' + d.name + '</h2>' +
+//                        '<h4>' + d.source.name + ' attacked ' + d.target.name + ' and the outcome was a ' + d.attacker_outcome + '</h4>' +
+//                        '<h3>Details</h3>' +
+//                        '<strong> Attacker King: </strong>'+d.attacker_king + '<br/>'+
+//                        '<strong> Battle Type: </strong>'+d.battle_type + '<br/>'+
+//                        '<strong> Major Death?: </strong>'+d.major_death + '<br/>'+
+//                        '<strong> Major Capture?: </strong>'+d.major_capture + '<br/>'+
+//                        '<strong> Attacker Size: </strong>'+d.value + '<br/>'+
+//                        '<strong> Defender Size: </strong>'+d.defender_size + '<br/>'+
+//                        '<strong> Region / Location: </strong>'+d.region+ ' / ' + d.location + '<br/>'+
+//                        '<strong> Attacking Commander: </strong>'+d.attacker_commander + '<br/>'+
+//                        '<strong> Defending Commander: </strong>'+d.defender_commander;
+//                
+//                
+//                    hovercard.html(tip)
+//                        .style('left', d3.event.pageX + 'px')
+//                        .style('top', d3.event.pageY + 'px');
+//            });
+//            
+//            path.on('mouseout', function(d) {
+//                    hovercard.transition()
+//                        .duration(500)
+//                        .style('opacity',0);
+//            });
+
+            
+//            node.attr("transform", function(d) {
+//                return "translate(" + d.x + "," + d.y + ")"; });
+            
+            
+        } //end tick
+            
+            
+            
+        })
+
+    </script>
+    
+    
+    
+</body>
+
+</html>
