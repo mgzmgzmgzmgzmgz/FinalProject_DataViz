@@ -2,19 +2,24 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Force Graph</title>
+    <title>NBA Playoffs 2018</title>
     <style>
         h1{
             padding: 10px;
             text-align: center;
         }
+        h2{
+            padding: 0px;
+        }
+        h3{
+            padding: 0px;
+        }
         
-/*
         .hovercard {
             position: absolute;
             max-width: 400px;
             height: auto;
-            padding: 5px;
+/*            padding: 5px;*/
             background-color: aliceblue;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
@@ -25,7 +30,6 @@
             pointer-events: none;
             font: 12px sans-serif;
         }
-*/
         path.link{
             fill: none;
             stroke: #000000;
@@ -53,23 +57,27 @@
 <body>
     <h1>2018 NBA PLAYOFFS</h1>
     
+    
     <script src="https://d3js.org/d3.v3.min.js"></script>
     
     <script>
+        
+
+        
     var margin = 0.9,
-        width = window.innerWidth*margin,
-        height = window.innerHeight*margin;
+        width = window.innerWidth,
+        height = window.innerHeight;
         
         d3.csv("NBA_playoffs.csv", function(error, links){
             //////////////////////////
             var nodes = {};
             //////////////////////////
             links.forEach(function(link) {
-                    console.log(link.source);
-                    console.log(link.target);
-                    console.log(link.name);
-                    console.log(link.outcome);
-                    console.log(link.game_number);
+//                    console.log(link.source);
+//                    console.log(link.target);
+//                    console.log(link.name);
+//                    console.log(link.outcome);
+//                    console.log(link.game_number);
                     link.source = nodes[link.source] || 
                         (nodes[link.source] = {name: link.name});
                     link.target = nodes[link.target] ||
@@ -77,17 +85,17 @@
 //                    link.value = +link.value; 
             });
             
-//        var hovercard = d3.select("body").append("div")
-//            .attr("class", "hovercard")
-//            .style("opacity", 0)
-//            .style("width", 400);
+        var hovercard = d3.select("body").append("div")
+            .attr("class", "hovercard")
+            .style("opacity", 0)
+            .style("width", 400);
 
             
-        console.log(nodes)
+//        console.log(nodes)
         //add an SVG to the body of the page
         var svg = d3.select('body').append('svg')
-            .attr('width', width)
-            .attr('height', height);
+            .attr('width', width + 200)
+            .attr('height', height + 200);
             
             
         //Set up definitions for markers
@@ -142,9 +150,50 @@
             .links(links)
             .on("tick", tick)
             .linkDistance(100)
-            .charge(-300)
+            .charge(-500)
             .start(); //Actually starts the graph
+            
+        console.log(force.gravity)
+
         
+        var big_circle = svg.append("circle")
+            .attr("cx", 30)
+            .attr("cy", 30)
+            .attr("r", 30)
+            .attr("fill", "black");
+            
+        big_circle.on("click", function(){
+            console.log("clicked");
+            force.linkDistance(200);
+            force.charge(-1000);
+            force.start();
+        });
+            
+       var med_circle = svg.append("circle")
+            .attr("cx", 130)
+            .attr("cy", 30)
+            .attr("r", 22)
+            .attr("fill", "black");
+            
+        med_circle.on("click", function(){
+            console.log("clicked");
+            force.linkDistance(100);
+            force.charge(-500)
+            force.start();
+        });    
+            
+        var small_circle = svg.append("circle")
+            .attr("cx", 230)
+            .attr("cy", 30)
+            .attr("r", 15)
+            .attr("fill", "black");
+            
+        small_circle.on("click", function(){
+            console.log("clicked");
+            force.linkDistance(20);
+            force.charge(-500)
+            force.start();
+        });
             
         function tick(){
             //Updates the nodes x and y values when dragged
@@ -169,52 +218,47 @@
                     d.target.y;
              });
             
-//            path.on("mouseover", function(d){
-//                hovercard.transition()
-//                    .duration(300)
-//                    .style("opacity", 1)
-//                
-//                    var tip = 
-//                        '<h2>' + d.name + '</h2>' +
-//                        '<h4>' + d.source.name + ' attacked ' + d.target.name + ' and the outcome was a ' + d.attacker_outcome + '</h4>' +
-//                        '<h3>Details</h3>' +
-//                        '<strong> Attacker King: </strong>'+d.attacker_king + '<br/>'+
-//                        '<strong> Battle Type: </strong>'+d.battle_type + '<br/>'+
-//                        '<strong> Major Death?: </strong>'+d.major_death + '<br/>'+
-//                        '<strong> Major Capture?: </strong>'+d.major_capture + '<br/>'+
-//                        '<strong> Attacker Size: </strong>'+d.value + '<br/>'+
-//                        '<strong> Defender Size: </strong>'+d.defender_size + '<br/>'+
-//                        '<strong> Region / Location: </strong>'+d.region+ ' / ' + d.location + '<br/>'+
-//                        '<strong> Attacking Commander: </strong>'+d.attacker_commander + '<br/>'+
-//                        '<strong> Defending Commander: </strong>'+d.defender_commander;
-//                
-//                
-//                    hovercard.html(tip)
-//                        .style('left', d3.event.pageX + 'px')
-//                        .style('top', d3.event.pageY + 'px');
-//            });
-//            
-//            path.on('mouseout', function(d) {
-//                    hovercard.transition()
-//                        .duration(500)
-//                        .style('opacity',0);
-//            });
+            path.on("mouseover", function(d){
+                hovercard.transition()
+                    .duration(300)
+                    .style("opacity", 1)
+                
+                    var tip = 
+                        '<strong>' + d.winner + " won : " + d.score + '</strong>' + '<br/>'+
+                        '<strong>' + d.date + '</strong>' + '<br/>'+
+                        '<strong>' + "Game " + d.game_number + '</strong>' + '<br/>'+
+                        '<strong> Stadium: </strong>' + d.Stadium + '<br/>' +
+                        '<strong> Top Stats: </strong>' + d.top_stats_series_winner + '<br/>' +
+                        d.top_stats_series_loser+ '<br/>' +
+                        '<strong> Referees: </strong>' + d.refs + '<br/>' +
+                        '<strong>' + d.scoring_by_quarter+'</strong>'+ '<br/>' +
+                        '<strong>' + d.attendance+'</strong>';
+                
+                
+                    hovercard.html(tip)
+                        .style('left', d3.event.pageX + 'px')
+                        .style('top', d3.event.pageY + 'px');
+            });
+            
+            path.on('mouseout', function(d) {
+                    hovercard.transition()
+                        .duration(500)
+                        .style('opacity',0);
+            });
 
             
-//            node.attr("transform", function(d) {
-//                return "translate(" + d.x + "," + d.y + ")"; });
+            node.attr("transform", function(d) {
+                return "translate(" + d.x + "," + d.y + ")"; });
             
             
-        } //end tick
+        } //end tick 
+            
+
             
             
-            
-        })
+        })//End CSV initialization
+ 
 
     </script>
-    
-    
-    
 </body>
-
 </html>

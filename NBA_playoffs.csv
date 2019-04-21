@@ -1,165 +1,821 @@
-game,source,target,outcome,game_number,name,
-E_R1_1_V_8_2018_1_T,R1_Toronto_2018,R2_Toronto_2018,win,1,toronto,
-E_R1_1_V_8_2018_2_T,R1_Toronto_2018,R2_Toronto_2018,win,2,toronto,
-E_R1_1_V_8_2018_3_T,R1_Toronto_2018,R2_Toronto_2018,loss,6,toronto,
-E_R1_1_V_8_2018_4_T,R1_Toronto_2018,R2_Toronto_2018,loss,5,toronto,
-E_R1_1_V_8_2018_5_T,R1_Toronto_2018,R2_Toronto_2018,win,3,toronto,
-E_R1_1_V_8_2018_6_T,R1_Toronto_2018,R2_Toronto_2018,win,4,toronto,
-E_R1_2_V_7_2018_1,R1_Boston_2018,R2_Boston_2018,win,1,boston,
-E_R1_2_V_7_2018_2,R1_Boston_2018,R2_Boston_2018,win,2,boston,
-E_R1_2_V_7_2018_3,R1_Boston_2018,R2_Boston_2018,loss,3,boston,
-E_R1_2_V_7_2018_4,R1_Boston_2018,R2_Boston_2018,loss,4,boston,
-E_R1_2_V_7_2018_5,R1_Boston_2018,R2_Boston_2018,win,5,boston,
-E_R1_2_V_7_2018_6,R1_Boston_2018,R2_Boston_2018,loss,6,boston,
-E_R1_2_V_7_2018_7,R1_Boston_2018,R2_Boston_2018,win,7,boston,
-E_R1_3_V_6_2018_1,R1_Philadelphia_2018,R2_Philadelphia_2018,win,1,philadelphia,
-E_R1_3_V_6_2018_2,R1_Philadelphia_2018,R2_Philadelphia_2018,win,2,philadelphia,
-E_R1_3_V_6_2018_3,R1_Philadelphia_2018,R2_Philadelphia_2018,win,3,philadelphia,
-E_R1_3_V_6_2018_4,R1_Philadelphia_2018,R2_Philadelphia_2018,win,4,philadelphia,
-E_R1_3_V_6_2018_5,R1_Philadelphia_2018,R2_Philadelphia_2018,loss,5,philadelphia,
-E_R1_4_V_5_2018_1,R1_Cleveland_2018,R2_Cleveland_2018,win,1,cleveland,
-E_R1_4_V_5_2018_2,R1_Cleveland_2018,R2_Cleveland_2018,win,2,cleveland,
-E_R1_4_V_5_2018_3,R1_Cleveland_2018,R2_Cleveland_2018,win,3,cleveland,
-E_R1_4_V_5_2018_4,R1_Cleveland_2018,R2_Cleveland_2018,win,4,cleveland,
-E_R1_4_V_5_2018_5,R1_Cleveland_2018,R2_Cleveland_2018,loss,5,cleveland,
-E_R1_4_V_5_2018_6,R1_Cleveland_2018,R2_Cleveland_2018,loss,6,cleveland,
-E_R1_4_V_5_2018_7,R1_Cleveland_2018,R2_Cleveland_2018,loss,7,cleveland,
-E_R2_1_V_4_2018_1,R2_Cleveland_2018,R3_Cleveland_2018,win,1,cleveland,
-E_R2_1_V_4_2018_2,R2_Cleveland_2018,R3_Cleveland_2018,win,2,cleveland,
-E_R2_1_V_4_2018_3,R2_Cleveland_2018,R3_Cleveland_2018,win,3,cleveland,
-E_R2_1_V_4_2018_4,R2_Cleveland_2018,R3_Cleveland_2018,win,4,cleveland,
-E_R2_3_V_2_2018_1,R2_Boston_2018,R3_Boston_2018,win,1,boston,
-E_R2_3_V_2_2018_2,R2_Boston_2018,R3_Boston_2018,win,2,boston,
-E_R2_3_V_2_2018_3,R2_Boston_2018,R3_Boston_2018,win,3,boston,
-E_R2_3_V_2_2018_4,R2_Boston_2018,R3_Boston_2018,win,4,boston,
-E_R2_3_V_2_2018_5,R2_Boston_2018,R3_Boston_2018,loss,1,boston,
-E_R3_4_V_2_2018_1,R3_Cleveland_2018,R4_Cleveland_2018,win,1,cleveland,
-E_R3_4_V_2_2018_2,R3_Cleveland_2018,R4_Cleveland_2018,win,2,cleveland,
-E_R3_4_V_2_2018_3,R3_Cleveland_2018,R4_Cleveland_2018,win,3,cleveland,
-E_R3_4_V_2_2018_4,R3_Cleveland_2018,R4_Cleveland_2018,win,4,cleveland,
-E_R3_4_V_2_2018_5,R3_Cleveland_2018,R4_Cleveland_2018,loss,5,cleveland,
-E_R3_4_V_2_2018_6,R3_Cleveland_2018,R4_Cleveland_2018,loss,6,cleveland,
-E_R3_4_V_2_2018_7,R3_Cleveland_2018,R4_Cleveland_2018,loss,7,cleveland,
-E_R1_1_V_8_2018_1_W,R1_Washington_2018,R2_Toronto_2018,win,1,washington,
-E_R1_1_V_8_2018_2_W,R1_Washington_2018,R2_Toronto_2018,win,2,washington,
-E_R1_1_V_8_2018_3_W,R1_Washington_2018,R2_Toronto_2018,loss,3,washington,
-E_R1_1_V_8_2018_4_W,R1_Washington_2018,R2_Toronto_2018,loss,4,washington,
-E_R1_1_V_8_2018_5_W,R1_Washington_2018,R2_Toronto_2018,loss,5,washington,
-E_R1_1_V_8_2018_6_W,R1_Washington_2018,R2_Toronto_2018,loss,6,washington,
-E_R1_2_V_7_2018_1_M,R1_Milwaukee_2018,R2_Boston_2018,win,1,milwaukee,
-E_R1_2_V_7_2018_2_M,R1_Milwaukee_2018,R2_Boston_2018,win,2,milwaukee,
-E_R1_2_V_7_2018_3_M,R1_Milwaukee_2018,R2_Boston_2018,loss,3,milwaukee,
-E_R1_2_V_7_2018_4_M,R1_Milwaukee_2018,R2_Boston_2018,loss,4,milwaukee,
-E_R1_2_V_7_2018_5_M,R1_Milwaukee_2018,R2_Boston_2018,win,5,milwaukee,
-E_R1_2_V_7_2018_6_M,R1_Milwaukee_2018,R2_Boston_2018,loss,6,milwaukee,
-E_R1_2_V_7_2018_7_M,R1_Milwaukee_2018,R2_Boston_2018,loss,7,milwaukee,
-E_R1_3_V_6_2018_1_P,R1_Miami_2018,R2_Philadelphia_2018,win,1,miami,
-E_R1_3_V_6_2018_2_P,R1_Miami_2018,R2_Philadelphia_2018,loss,2,miami,
-E_R1_3_V_6_2018_3_P,R1_Miami_2018,R2_Philadelphia_2018,loss,3,miami,
-E_R1_3_V_6_2018_4_P,R1_Miami_2018,R2_Philadelphia_2018,loss,4,miami,
-E_R1_3_V_6_2018_5_P,R1_Miami_2018,R2_Philadelphia_2018,loss,5,miami,
-E_R1_4_V_5_2018_1_I,R1_Indiana_2018,R2_Cleveland_2018,win,1,indiana,
-E_R1_4_V_5_2018_2_I,R1_Indiana_2018,R2_Cleveland_2018,win,2,indiana,
-E_R1_4_V_5_2018_3_I,R1_Indiana_2018,R2_Cleveland_2018,win,3,indiana,
-E_R1_4_V_5_2018_4_I,R1_Indiana_2018,R2_Cleveland_2018,loss,4,indiana,
-E_R1_4_V_5_2018_5_I,R1_Indiana_2018,R2_Cleveland_2018,loss,6,indiana,
-E_R1_4_V_5_2018_6_I,R1_Indiana_2018,R2_Cleveland_2018,loss,5,indiana,
-E_R1_4_V_5_2018_7_I,R1_Indiana_2018,R2_Cleveland_2018,loss,7,indiana,
-E_R2_1_V_4_2018_1_T,R2_Toronto_2018,R3_Cleveland_2018,loss,1,toronto,
-E_R2_1_V_4_2018_2_T,R2_Toronto_2018,R3_Cleveland_2018,loss,2,toronto,
-E_R2_1_V_4_2018_3_T,R2_Toronto_2018,R3_Cleveland_2018,loss,3,toronto,
-E_R2_1_V_4_2018_4_T,R2_Toronto_2018,R3_Cleveland_2018,loss,4,toronto,
-E_R2_3_V_2_2018_1_P,R2_Philadelphia_2018,R3_Boston_2018,win,1,philadelphia,
-E_R2_3_V_2_2018_2_P,R2_Philadelphia_2018,R3_Boston_2018,loss,2,philadelphia,
-E_R2_3_V_2_2018_3_P,R2_Philadelphia_2018,R3_Boston_2018,loss,3,philadelphia,
-E_R2_3_V_2_2018_4_P,R2_Philadelphia_2018,R3_Boston_2018,loss,4,philadelphia,
-E_R2_3_V_2_2018_5_P,R2_Philadelphia_2018,R3_Boston_2018,loss,5,philadelphia,
-E_R3_4_V_2_2018_1_B,R3_Boston_2018,R4_Cleveland_2018,win,1,boston,
-E_R3_4_V_2_2018_2_B,R3_Boston_2018,R4_Cleveland_2018,win,2,boston,
-E_R3_4_V_2_2018_3_B,R3_Boston_2018,R4_Cleveland_2018,win,3,boston,
-E_R3_4_V_2_2018_4_B,R3_Boston_2018,R4_Cleveland_2018,loss,4,boston,
-E_R3_4_V_2_2018_5_B,R3_Boston_2018,R4_Cleveland_2018,loss,5,boston,
-E_R3_4_V_2_2018_6_B,R3_Boston_2018,R4_Cleveland_2018,loss,6,boston,
-E_R3_4_V_2_2018_7_B,R3_Boston_2018,R4_Cleveland_2018,loss,7,boston,
-W_R1_1_V_8_2018_1,R1_Houston_2018,R2_Houston_2018,win,1,houston,
-W_R1_1_V_8_2018_2,R1_Houston_2018,R2_Houston_2018,win,2,houston,
-W_R1_1_V_8_2018_3,R1_Houston_2018,R2_Houston_2018,win,3,houston,
-W_R1_1_V_8_2018_4,R1_Houston_2018,R2_Houston_2018,win,4,houston,
-W_R1_1_V_8_2018_5,R1_Houston_2018,R2_Houston_2018,loss,5,houston,
-W_R1_1_V_8_2018_1_T,R1_Minnesota_2018,R2_Houston_2018,loss,1,minnesota,
-W_R1_1_V_8_2018_2_T,R1_Minnesota_2018,R2_Houston_2018,loss,2,minnesota,
-W_R1_1_V_8_2018_3_T,R1_Minnesota_2018,R2_Houston_2018,loss,3,minnesota,
-W_R1_1_V_8_2018_4_T,R1_Minnesota_2018,R2_Houston_2018,loss,4,minnesota,
-W_R1_1_V_8_2018_5_T,R1_Minnesota_2018,R2_Houston_2018,win,5,minnesota,
-W_R1_2_V_7_2018_1,R1_GS_2018,R2_GS_2018,win,1,goldenstate,
-W_R1_2_V_7_2018_2,R1_GS_2018,R2_GS_2018,win,2,goldenstate,
-W_R1_2_V_7_2018_3,R1_GS_2018,R2_GS_2018,win,3,goldenstate,
-W_R1_2_V_7_2018_4,R1_GS_2018,R2_GS_2018,win,4,goldenstate,
-W_R1_2_V_7_2018_5,R1_GS_2018,R2_GS_2018,loss,5,goldenstate,
-W_R1_2_V_7_2018_1_S,R1_SA_2018,R2_GS_2018,win,1,spurs,
-W_R1_2_V_7_2018_2_S,R1_SA_2018,R2_GS_2018,loss,2,spurs,
-W_R1_2_V_7_2018_3_S,R1_SA_2018,R2_GS_2018,loss,3,spurs,
-W_R1_2_V_7_2018_4_S,R1_SA_2018,R2_GS_2018,loss,4,spurs,
-W_R1_2_V_7_2018_5_S,R1_SA_2018,R2_GS_2018,loss,5,spurs,
-W_R1_3_V_6_2018_1,R1_Portland_2018,R2_NewOrleans_2018,loss,1,portland,
-W_R1_3_V_6_2018_2,R1_Portland_2018,R2_NewOrleans_2018,loss,2,portland,
-W_R1_3_V_6_2018_3,R1_Portland_2018,R2_NewOrleans_2018,loss,3,portland,
-W_R1_3_V_6_2018_4,R1_Portland_2018,R2_NewOrleans_2018,loss,4,portland,
-W_R1_3_V_6_2018_1_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,1,neworleans,
-W_R1_3_V_6_2018_2_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,2,neworleans,
-W_R1_3_V_6_2018_3_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,3,neworleans,
-W_R1_3_V_6_2018_4_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,4,neworleans,
-W_R1_4_V_5_2018_1,R1_Utah_2018,R2_Utah_2018,win,1,utah,
-W_R1_4_V_5_2018_2,R1_Utah_2018,R2_Utah_2018,win,2,utah,
-W_R1_4_V_5_2018_3,R1_Utah_2018,R2_Utah_2018,win,3,utah,
-W_R1_4_V_5_2018_4,R1_Utah_2018,R2_Utah_2018,win,4,utah,
-W_R1_4_V_5_2018_5,R1_Utah_2018,R2_Utah_2018,loss,5,utah,
-W_R1_4_V_5_2018_6,R1_Utah_2018,R2_Utah_2018,loss,6,utah,
-W_R1_4_V_5_2018_1_,R1_OKC_2018,R2_Utah_2018,loss,1,oklahoma,
-W_R1_4_V_5_2018_2_,R1_OKC_2018,R2_Utah_2018,loss,2,oklahoma,
-W_R1_4_V_5_2018_3_,R1_OKC_2018,R2_Utah_2018,loss,3,oklahoma,
-W_R1_4_V_5_2018_4_,R1_OKC_2018,R2_Utah_2018,loss,4,oklahoma,
-W_R1_4_V_5_2018_5_,R1_OKC_2018,R2_Utah_2018,win,5,oklahoma,
-W_R1_4_V_5_2018_6_,R1_OKC_2018,R2_Utah_2018,win,6,oklahoma,
-W_R2_1_V_5_2018_1,R2_Utah_2018,R3_Houston_2018,win,1,utah,
-W_R2_1_V_5_2018_2,R2_Utah_2018,R3_Houston_2018,loss,2,utah,
-W_R2_1_V_5_2018_3,R2_Utah_2018,R3_Houston_2018,loss,3,utah,
-W_R2_1_V_5_2018_4,R2_Utah_2018,R3_Houston_2018,loss,4,utah,
-W_R2_1_V_5_2018_5,R2_Utah_2018,R3_Houston_2018,loss,5,utah,
-W_R2_1_V_5_2018_1_,R2_Houston_2018,R3_Houston_2018,loss,1,houston,
-W_R2_1_V_5_2018_2_,R2_Houston_2018,R3_Houston_2018,win,2,houston,
-W_R2_1_V_5_2018_3_,R2_Houston_2018,R3_Houston_2018,win,3,houston,
-W_R2_1_V_5_2018_4_,R2_Houston_2018,R3_Houston_2018,win,4,houston,
-W_R2_1_V_5_2018_5_,R2_Houston_2018,R3_Houston_2018,win,5,houston,
-W_R2_2_V_6_2018_1,R2_GS_2018,R3_GS_2018,win,1,goldenstate,
-W_R2_2_V_6_2018_2,R2_GS_2018,R3_GS_2018,win,2,goldenstate,
-W_R2_2_V_6_2018_3,R2_GS_2018,R3_GS_2018,win,3,goldenstate,
-W_R2_2_V_6_2018_4,R2_GS_2018,R3_GS_2018,win,4,goldenstate,
-W_R2_2_V_6_2018_5,R2_GS_2018,R3_GS_2018,loss,5,goldenstate,
-W_R2_2_V_6_2018_1a,R2_NewOrleans_2018,R3_GS_2018,loss,1,neworleans,
-W_R2_2_V_6_2018_2a,R2_NewOrleans_2018,R3_GS_2018,loss,2,neworleans,
-W_R2_2_V_6_2018_3a,R2_NewOrleans_2018,R3_GS_2018,loss,3,neworleans,
-W_R2_2_V_6_2018_4a,R2_NewOrleans_2018,R3_GS_2018,loss,4,neworleans,
-W_R2_2_V_6_2018_5a,R2_NewOrleans_2018,R3_GS_2018,win,5,neworleans,
-W_R3_2_V_1_2018_1,R3_GS_2018,R4_GS_2018,win,1,goldenstate,
-W_R3_2_V_1_2018_2,R3_GS_2018,R4_GS_2018,win,2,goldenstate,
-W_R3_2_V_1_2018_3,R3_GS_2018,R4_GS_2018,win,3,goldenstate,
-W_R3_2_V_1_2018_4,R3_GS_2018,R4_GS_2018,win,4,goldenstate,
-W_R3_2_V_1_2018_5,R3_GS_2018,R4_GS_2018,loss,5,goldenstate,
-W_R3_2_V_1_2018_6,R3_GS_2018,R4_GS_2018,loss,6,goldenstate,
-W_R3_2_V_1_2018_7,R3_GS_2018,R4_GS_2018,loss,7,goldenstate,
-W_R3_2_V_1_2018_1a,R3_Houston_2018,R4_GS_2018,loss,1,houston,
-W_R3_2_V_1_2018_2a,R3_Houston_2018,R4_GS_2018,loss,2,houston,
-W_R3_2_V_1_2018_3a,R3_Houston_2018,R4_GS_2018,loss,3,houston,
-W_R3_2_V_1_2018_4a,R3_Houston_2018,R4_GS_2018,loss,4,houston,
-W_R3_2_V_1_2018_5a,R3_Houston_2018,R4_GS_2018,win,5,houston,
-W_R3_2_V_1_2018_6a,R3_Houston_2018,R4_GS_2018,win,6,houston,
-W_R3_2_V_1_2018_7a,R3_Houston_2018,R4_GS_2018,win,7,houston,
-F_2018_1,R5_GS_2018,R5_GS_2018,win,1,goldenstate,
-F_2018_2,R4_GS_2018,R5_GS_2018,win,2,goldenstate,
-F_2018_3,R4_GS_2018,R5_GS_2018,win,3,goldenstate,
-F_2018_4,R4_GS_2018,R5_GS_2018,win,4,goldenstate,
-F_2018_1a,R4_Cleveland_2018,R5_GS_2018,loss,1,cleveland,
-F_2018_2a,R4_Cleveland_2018,R5_GS_2018,loss,2,cleveland,
-F_2018_3a,R4_Cleveland_2018,R5_GS_2018,loss,3,cleveland,
-F_2018_4a,R4_Cleveland_2018,R5_GS_2018,loss,4,cleveland,
+game,source,target,outcome,game_number,name,date,winner,score,top_stats_series_winner,top_stats_series_loser,Stadium,refs,attendance,scoring_by_quarter
+E_R1_1_V_8_2018_1_T,R1_Toronto_2018,R2_Toronto_2018,win,1,toronto,"April 14, 2018",Toronto,114 to 106,"Pts: Serge Ibaka 23
+Rebs: Serge Ibaka 12
+Asts: Kyle Lowry 9","Pts: John Wall 23
+Rebs: Markieff Morris 11
+Asts: John Wall 15","Air Canada Centre, Toronto, Ontario","Referees: Scott Foster, Tony Brothers, Pat Fraher","Attendance: 19,937","Scoring by quarter: 23–28, 36–27, 26–31, 21–28"
+E_R1_1_V_8_2018_2_T,R1_Toronto_2018,R2_Toronto_2018,win,2,toronto,"April 17, 2018",Toronto,130 to 119,"Pts: DeMar DeRozan 37
+Rebs: Jonas Valančiūnas 14
+Asts: Kyle Lowry 12","Pts: John Wall 29
+Rebs: Kelly Oubre Jr. 5
+Asts: John Wall 9","Air Canada Centre, Toronto, Ontario","Referees: Mike Callahan, Courtney Kirkland, Tom Washington","Attendance: 20,242","Scoring by quarter: 27–44, 31–32, 32–24, 29–30"
+E_R1_1_V_8_2018_3_T,R1_Toronto_2018,R2_Toronto_2018,loss,3,toronto,"April 20, 2018",Washington,122 to 103,"Pts: DeMar DeRozan 23
+Rebs: Serge Ibaka 6
+Asts: Kyle Lowry 8","Pts: Beal, Wall 28 each
+Rebs: Otto Porter 8
+Asts: John Wall 14","Capital One Arena, Washington, D.C.","Referees: Ken Mauer, James Williams, Gary Zielinski","Attendance: 20,356","Scoring by quarter: 29–30, 32–39, 21–32, 21–21"
+E_R1_1_V_8_2018_4_T,R1_Toronto_2018,R2_Toronto_2018,loss,4,toronto,"April 22, 2018",Washington,106 to 98,"Pts: DeMar DeRozan 35
+Rebs: Serge Ibaka 10
+Asts: DeMar DeRozan 6","Pts: Bradley Beal 31
+Rebs: three players 6 each
+Asts: John Wall 14","Capital One Arena, Washington, D.C.","Referees: Derrick Stafford, Derrick Collins, Josh Tiven","Attendance: 20,356","Scoring by quarter: 30–22, 21–18, 29–40, 18–26"
+E_R1_1_V_8_2018_5_T,R1_Toronto_2018,R2_Toronto_2018,win,5,toronto,"April 25, 2018",Toronto,108 to 98,"Pts: DeMar DeRozan 32
+Rebs: Jonas Valančiūnas 13
+Asts: Kyle Lowry 10","Pts: John Wall 26
+Rebs: Marcin Gortat 12
+Asts: John Wall 9","Air Canada Centre, Toronto, Ontario","Referees: Marc Davis, Mark Ayotte, John Goble","Attendance: 19,987","Scoring by quarter: 24–23, 23–25, 31–31, 20–29"
+E_R1_1_V_8_2018_6_T,R1_Toronto_2018,R2_Toronto_2018,win,6,toronto,"April 27, 2018",Toronto,102 to 92,"Pts: Kyle Lowry 24
+Rebs: Jonas Valančiūnas 12
+Asts: Kyle Lowry 6","Pts: Bradley Beal 32
+Rebs: Markieff Morris 15
+Asts: John Wall 8","Capital One Arena, Washington, D.C.","Referees: James Capers, Sean Corbin, Zach Zarba","Attendance: 20,356","Scoring by quarter: 20–30, 30–23, 23–25, 29–14"
+E_R1_2_V_7_2018_1,R1_Boston_2018,R2_Boston_2018,win,1,boston,April 15,Celtics,113 to 107,"Pts: Al Horford 24
+Rebs: Al Horford 12
+Asts: three players 4 each","Pts: Giannis Antetokounmpo 35
+Rebs: Giannis Antetokounmpo 13
+Asts: Giannis Antetokounmpo 7","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Brian Forte, Jason Phillips","Attendance: 18,624","Scoring by quarter: 17–29, 30–15, 19–26, 33–29, Overtime: 8–14"
+E_R1_2_V_7_2018_2,R1_Boston_2018,R2_Boston_2018,win,2,boston,"April 17, 2018",Celtics,120 to 106,"Pts: Jaylen Brown 30
+Rebs: Jayson Tatum 7
+Asts: Terry Rozier 8","Pts: Giannis Antetokounmpo 30
+Rebs: Giannis Antetokounmpo 9
+Asts: Giannis Antetokounmpo 8","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Mark Ayotte, Sean Wright","Attendance: 18,624","Scoring by quarter: 22–33, 29–27, 24–30, 31–30"
+E_R1_2_V_7_2018_3,R1_Boston_2018,R2_Boston_2018,loss,3,boston,"April 20, 2018",Bucks,116 to 92,"Pts: Al Horford 16
+Rebs: Greg Monroe 12
+Asts: Terry Rozier 9","Pts: Khris Middleton 23
+Rebs: Khris Middleton 8
+Asts: Khris Middleton 7","Bradley Center, Milwaukee, Wisconsin","Referees: Scott Foster, Sean Corbin, Courtney Kirkland","Attendance: 18,717","Scoring by quarter: 12–27, 23–31, 32–27, 25–31"
+E_R1_2_V_7_2018_4,R1_Boston_2018,R2_Boston_2018,loss,4,boston,"April 22, 2018",Bucks,104 to 102,"Pts: Jaylen Brown 34
+Rebs: Aron Baynes 11
+Asts: Terry Rozier 8","Pts: Giannis Antetokounmpo 27
+Rebs: Antetokounmpo, Parker 7 each
+Asts: Antetokounmpo, Bledsoe 5 each","Bradley Center, Milwaukee, Wisconsin","Referees: Ed Malloy, Brent Barnaky, Tom Washington","Attendance: 18,717","Scoring by quarter: 17–24, 18–27, 32–24, 35–29"
+E_R1_2_V_7_2018_5,R1_Boston_2018,R2_Boston_2018,win,5,boston,"April 24, 2018",Celtics,92 to 87,"Pts: Al Horford 22
+Rebs: Al Horford 14
+Asts: Terry Rozier 5","Pts: Khris Middleton 23
+Rebs: Giannis Antetokounmpo 10
+Asts: Giannis Antetokounmpo 9","TD Garden, Boston, Massachusetts","Referees: Ken Mauer, Pat Fraher, James Williams","Attendance: 18,624","Scoring by quarter: 15–23, 22–25, 24–24, 26–20"
+E_R1_2_V_7_2018_6,R1_Boston_2018,R2_Boston_2018,loss,6,boston,"April 26, 2018",Bucks,97 to 86,"Pts: Jayson Tatum 22
+Rebs: Al Horford 10
+Asts: Terry Rozier 5","Pts: Giannis Antetokounmpo 31
+Rebs: Giannis Antetokounmpo 14
+Asts: Matthew Dellavedova 6","Bradley Center, Milwaukee, Wisconsin","Referees: Mike Callahan, Tony Brothers, David Guthrie","Attendance: 18,717","Scoring by quarter: 24–22, 15–26, 26–26, 21–23"
+E_R1_2_V_7_2018_7,R1_Boston_2018,R2_Boston_2018,win,7,boston,"April 28, 2018",Celtics,112 to 96,"Pts: Horford, Rozier 26 each
+Rebs: Al Horford 8
+Asts: Terry Rozier 9","Pts: Khris Middleton 32
+Rebs: Giannis Antetokounmpo 9
+Asts: Giannis Antetokounmpo 5","TD Garden, Boston, Massachusetts","Referees: Derrick Stafford, John Goble, Josh Tiven","Attendance: 18,624","Scoring by quarter: 17–30, 25–20, 25–31, 29–31"
+E_R1_3_V_6_2018_1,R1_Philadelphia_2018,R2_Philadelphia_2018,win,1,philadelphia,"April 14, 2018",Philadelphia,130 to 103,"Pts: J. J. Redick 28
+Rebs: Ersan İlyasova 14
+Asts: Ben Simmons 14","Pts: Kelly Olynyk 26
+Rebs: Olynyk, Winslow 7 each
+Asts: Kelly Olynyk 5","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Marc Davis, Bill Kennedy, Bill Spooner","Attendance: 20,617","Scoring by quarter: 35–29, 25–27, 18–34, 25–40"
+E_R1_3_V_6_2018_2,R1_Philadelphia_2018,R2_Philadelphia_2018,loss,2,philadelphia,"April 16, 2018",Miami,113 to 103,"Pts: Ben Simmons 24
+Rebs: Ersan İlyasova 11
+Asts: Ben Simmons 8","Pts: Dwyane Wade 28
+Rebs: Johnson, Wade 7 each
+Asts: Kelly Olynyk 6","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Scott Foster, Tony Brothers, Karl Lane","Attendance: 20,753","Scoring by quarter: 22–29, 34–13, 30–33, 27–28"
+E_R1_3_V_6_2018_3,R1_Philadelphia_2018,R2_Philadelphia_2018,win,3,philadelphia,"April 19, 2018",Philadelphia,128 to 108,"Pts: Joel Embiid 23
+Rebs: Ben Simmons 12
+Asts: Ben Simmons 7","Pts: Goran Dragić 23
+Rebs: Justise Winslow 10
+Asts: Goran Dragić 8","American Airlines Arena, Miami, Florida","Referees: James Capers, Tony Brown, Kane Fitzgerald","Attendance: 19,812","Scoring by quarter: 37–33, 26–31, 33–30, 32–14"
+E_R1_3_V_6_2018_4,R1_Philadelphia_2018,R2_Philadelphia_2018,win,4,philadelphia,"April 21, 2018",Philadelphia,106 to 102,"Pts: J. J. Redick 24
+Rebs: Ben Simmons 13
+Asts: Ben Simmons 10","Pts: Dwyane Wade 25
+Rebs: Hassan Whiteside 13
+Asts: Josh Richardson 7","American Airlines Arena, Miami, Florida","Referees: Mike Callahan, Jason Phillips, Kevin Scott","Attendance: 19,804","Scoring by quarter: 26–26, 30–35, 23–22, 27–19"
+E_R1_3_V_6_2018_5,R1_Philadelphia_2018,R2_Philadelphia_2018,win,5,philadelphia,"April 24, 2018",Philadelphia,104 to 91,"Pts: J. J. Redick 27
+Rebs: Joel Embiid 12
+Asts: Ben Simmons 6","Pts: Kelly Olynyk 18
+Rebs: Kelly Olynyk 8
+Asts: Kelly Olynyk 6","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Derrick Stafford, Eric Lewis, Josh Tiven","Attendance: 21,171","Scoring by quarter: 21–23, 25–23, 20–34, 25–24"
+E_R1_4_V_5_2018_1,R1_Cleveland_2018,R2_Cleveland_2018,loss,1,cleveland,"April 15, 2018",Pacers,98 to 80,"Pts: LeBron James 24
+Rebs: Kevin Love 17
+Asts: LeBron James 12","Pts: Victor Oladipo 32
+Rebs: Myles Turner 8
+Asts: Darren Collison 6","Quicken Loans Arena, Cleveland, Ohio","Referees: Zach Zarba, Bennie Adams, John Goble","Attendance: 20,562","Scoring by quarter: 33–14, 22–24, 18–27, 25–15"
+E_R1_4_V_5_2018_2,R1_Cleveland_2018,R2_Cleveland_2018,win,2,cleveland,"April 18, 2018",Cavaliers ,100 to 97,"Pts: LeBron James 46
+Rebs: LeBron James 12
+Asts: LeBron James 5","Pts: Victor Oladipo 22
+Rebs: Thaddeus Young 6
+Asts: Collison, Oladipo 6 each","Quicken Loans Arena, Cleveland, Ohio","Referees: Ed Malloy, David Guthrie, Eric Lewis","Attendance: 20,562","Scoring by quarter: 18–33, 28–25, 21–16, 30–26"
+E_R1_4_V_5_2018_3,R1_Cleveland_2018,R2_Cleveland_2018,loss,3,cleveland,"April 20, 2018",Pacers,92 to 90,"Pts: LeBron James 28
+Rebs: LeBron James 12
+Asts: LeBron James 8","Pts: Bojan Bogdanović 30
+Rebs: Myles Turner 10
+Asts: Victor Oladipo 7","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Derrick Stafford, Derrick Collins, Josh Tiven","Attendance: 17,923","Scoring by quarter: 31–20, 26–20, 12–23, 21–29"
+E_R1_4_V_5_2018_4,R1_Cleveland_2018,R2_Cleveland_2018,win,4,cleveland,"April 22, 2018",Cavaliers ,104 to 100,"Pts: LeBron James 32
+Rebs: LeBron James 13
+Asts: LeBron James 7","Pts: Domantas Sabonis 19
+Rebs: Thaddeus Young 16
+Asts: Darren Collison 8","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Ken Mauer, Pat Fraher, Rodney Mott","Attendance: 17,923","Scoring by quarter: 30–24, 30–26, 20–28, 24–22"
+E_R1_4_V_5_2018_5,R1_Cleveland_2018,R2_Cleveland_2018,win,5,cleveland,"April 25, 2018",Cavaliers ,98 to 95,"Pts: LeBron James 44
+Rebs: James, Love 10 each
+Asts: LeBron James 8","Pts: Domantas Sabonis 22
+Rebs: Victor Oladipo 12
+Asts: Cory Joseph 6","Quicken Loans Arena, Cleveland, Ohio","Referees: James Capers, Bill Kennedy, Bill Spooner","Attendance: 20,562","Scoring by quarter: 25–23, 31–26, 17–32, 22–17"
+E_R1_4_V_5_2018_6,R1_Cleveland_2018,R2_Cleveland_2018,loss,6,cleveland,"April 27, 2018",Pacers,121 to 87,"Pts: LeBron James 22
+Rebs: Kevin Love 7
+Asts: LeBron James 7","Pts: Victor Oladipo 28
+Rebs: Victor Oladipo 13
+Asts: Victor Oladipo 10","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Marc Davis, Jason Phillips, Sean Wright","Attendance: 17,923","Scoring by quarter: 26–29, 21–28, 20–35, 20–29"
+E_R1_4_V_5_2018_7,R1_Cleveland_2018,R2_Cleveland_2018,win,7,cleveland,"April 29, 2018",Cavaliers ,105 to 101,"Pts: LeBron James 45
+Rebs: Tristan Thompson 10
+Asts: LeBron James 7","Pts: Victor Oladipo 30
+Rebs: Victor Oladipo 12
+Asts: Victor Oladipo 6","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, Tony Brothers, Kane Fitzgerald","Attendance: 20,562","Scoring by quarter: 19–31, 24–23, 31–22, 27–29"
+E_R2_1_V_4_2018_1,R2_Cleveland_2018,R3_Cleveland_2018,win,1,cleveland,"May 1, 2018",Cavaliers ,113 to 112,"Pts: LeBron James 26
+Rebs: Kevin Love 13
+Asts: LeBron James 13","Pts: DeMar DeRozan 22
+Rebs: Jonas Valančiūnas 21
+Asts: Kyle Lowry 10","Air Canada Centre, Toronto, Ontario","Referees: Derrick Stafford, Pat Fraher, John Goble","Attendance: 19,954","Scoring by quarter: 19–33, 38–27, 25–27, 23–18, Overtime: 8–7"
+E_R2_1_V_4_2018_2,R2_Cleveland_2018,R3_Cleveland_2018,win,2,cleveland,"May 3, 2018",Cavaliers ,128 to 110,"Pts: LeBron James 43
+Rebs: Kevin Love 11
+Asts: LeBron James 14","Pts: DeMar DeRozan 24
+Rebs: Jonas Valančiūnas 12
+Asts: Kyle Lowry 8","Air Canada Centre, Toronto, Ontario","Referees: Ken Mauer, Kane Fitzgerald, Brian Forte","Attendance: 20,127","Scoring by quarter: 26–29, 35–34, 37–24, 30–23"
+E_R2_1_V_4_2018_3,R2_Cleveland_2018,R3_Cleveland_2018,win,3,cleveland,"May 5, 2018",Cavaliers ,105 to 103,"Pts: LeBron James 38
+Rebs: Kevin Love 16
+Asts: LeBron James 7","Pts: Kyle Lowry 27
+Rebs: Jonas Valančiūnas 11
+Asts: Kyle Lowry 7","Quicken Loans Arena, Cleveland, Ohio","Referees: Mike Callahan, Courtney Kirkland, Josh Tiven","Attendance: 20,562","Scoring by quarter: 19–24, 21–31, 25–24, 38–26"
+E_R2_1_V_4_2018_4,R2_Cleveland_2018,R3_Cleveland_2018,win,4,cleveland,"May 7, 2018",Cavaliers ,128 to 93,"Pts: LeBron James 29
+Rebs: LeBron James 8
+Asts: LeBron James 11","Pts: Jonas Valančiūnas 18
+Rebs: DeRozan, Valančiūnas 5 each
+Asts: Kyle Lowry 10","Quicken Loans Arena, Cleveland, Ohio","Referees: Marc Davis, Tony Brown, David Guthrie","Attendance: 20,562","Scoring by quarter: 26–30, 21–33, 25–37, 21–28"
+E_R2_3_V_2_2018_1,R2_Boston_2018,R3_Boston_2018,win,1,boston,"April 30, 2018",Celtics,117 to 101,"Pts: Terry Rozier 29
+Rebs: Terry Rozier 8
+Asts: Marcus Smart 9","Pts: Joel Embiid 31
+Rebs: Joel Embiid 13
+Asts: Ben Simmons 6","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Ed Malloy, Bill Spooner","Attendance: 18,624","Scoring by quarter: 22–25, 23–31, 30–31, 26–30"
+E_R2_3_V_2_2018_2,R2_Boston_2018,R3_Boston_2018,win,2,boston,"May 3, 2018",Celtics,108 to 103,"Pts: Jayson Tatum 21
+Rebs: Al Horford 12
+Asts: Terry Rozier 9","Pts: J. J. Redick 23
+Rebs: Joel Embiid 14
+Asts: Ben Simmons 7","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Jason Phillips, Sean Wright","Attendance: 18,624","Scoring by quarter: 31–22, 25–29, 19–28, 28–29"
+E_R2_3_V_2_2018_3,R2_Boston_2018,R3_Boston_2018,win,3,boston,"May 5, 2018",Celtics,101 to 98,"Pts: Jayson Tatum 24
+Rebs: Aron Baynes 10
+Asts: Jayson Tatum 4","Pts: Joel Embiid 22
+Rebs: Joel Embiid 19
+Asts: Ben Simmons 8","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Derrick Stafford, Pat Fraher, John Goble","Attendance: 20,758","Scoring by quarter: 19–20, 29–31, 21–17, 20–21, Overtime: 12–9"
+E_R2_3_V_2_2018_4,R2_Boston_2018,R3_Boston_2018,loss,4,boston,"May 7, 2018",Philadelphia,103 to 92,"Pts: Jayson Tatum 20
+Rebs: Al Horford 10
+Asts: Jayson Tatum 4","Pts: Dario Šarić 25
+Rebs: Embiid, Simmons 13 each
+Asts: McConnell, Simmons 5 each","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Scott Foster, Tony Brothers, Sean Corbin","Attendance: 20,936","Scoring by quarter: 22–21, 21–26, 22–29, 27–27"
+E_R2_3_V_2_2018_5,R2_Boston_2018,R3_Boston_2018,win,5,boston,"May 9, 2018",Celtics,114 to 112,"Pts: Jayson Tatum 25
+Rebs: Aron Baynes 9
+Asts: Marcus Smart 6","Pts: Embiid, Šarić 27 each
+Rebs: Joel Embiid 12
+Asts: McConnell, Simmons 6 each","TD Garden, Boston, Massachusetts","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,624","Scoring by quarter: 24–25, 28–36, 30–22, 30–31"
+E_R3_4_V_2_2018_1,R3_Cleveland_2018,R4_Cleveland_2018,loss,1,cleveland,"May 13, 2018",Celtics,108 to 83,"Pts: Kevin Love 17
+Rebs: Tristan Thompson 11
+Asts: LeBron James 9","Pts: Jaylen Brown 23
+Rebs: Marcus Morris 10
+Asts: Terry Rozier 8","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Pat Fraher, John Goble","Attendance: 18,624","Scoring by quarter: 18–36, 17–25, 29–17, 19–30"
+E_R3_4_V_2_2018_2,R3_Cleveland_2018,R4_Cleveland_2018,loss,2,cleveland,"May 15, 2018",Celtics,107 to 94,"Pts: LeBron James 42
+Rebs: Kevin Love 15
+Asts: LeBron James 12","Pts: Jaylen Brown 23
+Rebs: Al Horford 10
+Asts: Marcus Smart 9","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Derrick Stafford, Sean Wright","Attendance: 18,624","Scoring by quarter: 27–23, 28–25, 22–36, 17–23"
+E_R3_4_V_2_2018_3,R3_Cleveland_2018,R4_Cleveland_2018,win,3,cleveland,"May 19, 2018",Cavaliers ,116 to 86,"Pts: LeBron James 27
+Rebs: Kevin Love 14
+Asts: LeBron James 12","Pts: Jayson Tatum 18
+Rebs: Al Horford 7
+Asts: Marcus Smart 6","Quicken Loans Arena, Cleveland, Ohio","Referees: James Capers, Josh Tiven, Zach Zarba","Attendance: 20,562","Scoring by quarter: 17–32, 24–29, 22–26, 23–29"
+E_R3_4_V_2_2018_4,R3_Cleveland_2018,R4_Cleveland_2018,win,4,cleveland,"May 21, 2018",Cavaliers ,111 to 102,"Pts: LeBron James 44
+Rebs: Tristan Thompson 12
+Asts: four players 3 each","Pts: Jaylen Brown 25
+Rebs: Al Horford 7
+Asts: Terry Rozier 11","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, Bill Kennedy, Eric Lewis","Attendance: 20,562","Scoring by quarter: 18–34, 35–34, 23–21, 26–22"
+E_R3_4_V_2_2018_5,R3_Cleveland_2018,R4_Cleveland_2018,loss,5,cleveland,"May 23, 2018",Celtics,96 to 83,"Pts: LeBron James 26
+Rebs: LeBron James 10
+Asts: LeBron James 5","Pts: Jayson Tatum 24
+Rebs: Al Horford 12
+Asts: Terry Rozier 6","TD Garden, Boston, Massachusetts","Referees: Ken Mauer, Ed Malloy, Jason Phillips","Attendance: 18,624","Scoring by quarter: 19–32, 23–21, 18–23, 23–20"
+E_R3_4_V_2_2018_6,R3_Cleveland_2018,R4_Cleveland_2018,win,6,cleveland,"May 25, 2018",Cavaliers ,109 to 99,"Pts: LeBron James 46
+Rebs: LeBron James 11
+Asts: LeBron James 9","Pts: Terry Rozier 28
+Rebs: Al Horford 9
+Asts: Marcus Smart 8","Quicken Loans Arena, Cleveland, Ohio","Referees: Mike Callahan, John Goble, Derrick Stafford","Attendance: 20,562","Scoring by quarter: 25–20, 18–34, 30–29, 26–26"
+E_R3_4_V_2_2018_7,R3_Cleveland_2018,R4_Cleveland_2018,win,7,cleveland,"May 27, 2018",Cavaliers ,87 to 79,"Pts: LeBron James 35
+Rebs: LeBron James 15
+Asts: LeBron James 9","Pts: Jayson Tatum 24
+Rebs: Marcus Morris 12
+Asts: Marcus Smart 7","TD Garden, Boston, Massachusetts","Referees: Marc Davis, James Capers, Zach Zarba","Attendance: 18,624","Scoring by quarter: 18–26, 21–17, 20–13, 28–23"
+E_R1_1_V_8_2018_1_W,R1_Washington_2018,R2_Toronto_2018,loss,1,washington,"April 14, 2019",Toronto,114 to 106,"Pts: Serge Ibaka 23
+Rebs: Serge Ibaka 12
+Asts: Kyle Lowry 9","Pts: John Wall 23
+Rebs: Markieff Morris 11
+Asts: John Wall 15","Air Canada Centre, Toronto, Ontario","Referees: Scott Foster, Tony Brothers, Pat Fraher","Attendance: 19,937","Scoring by quarter: 23–28, 36–27, 26–31, 21–28"
+E_R1_1_V_8_2018_2_W,R1_Washington_2018,R2_Toronto_2018,loss,2,washington,"April 17, 2019",Toronto,130 to 119,"Pts: DeMar DeRozan 37
+Rebs: Jonas Valančiūnas 14
+Asts: Kyle Lowry 12","Pts: John Wall 29
+Rebs: Kelly Oubre Jr. 5
+Asts: John Wall 9","Air Canada Centre, Toronto, Ontario","Referees: Mike Callahan, Courtney Kirkland, Tom Washington","Attendance: 20,242","Scoring by quarter: 27–44, 31–32, 32–24, 29–30"
+E_R1_1_V_8_2018_3_W,R1_Washington_2018,R2_Toronto_2018,win,3,washington,"April 20, 2019",Washington,122 to 103,"Pts: DeMar DeRozan 23
+Rebs: Serge Ibaka 6
+Asts: Kyle Lowry 8","Pts: Beal, Wall 28 each
+Rebs: Otto Porter 8
+Asts: John Wall 14","Capital One Arena, Washington, D.C.","Referees: Ken Mauer, James Williams, Gary Zielinski","Attendance: 20,356","Scoring by quarter: 29–30, 32–39, 21–32, 21–21"
+E_R1_1_V_8_2018_4_W,R1_Washington_2018,R2_Toronto_2018,win,4,washington,"April 22, 2019",Washington,106 to 98,"Pts: DeMar DeRozan 35
+Rebs: Serge Ibaka 10
+Asts: DeMar DeRozan 6","Pts: Bradley Beal 31
+Rebs: three players 6 each
+Asts: John Wall 14","Capital One Arena, Washington, D.C.","Referees: Derrick Stafford, Derrick Collins, Josh Tiven","Attendance: 20,356","Scoring by quarter: 30–22, 21–18, 29–40, 18–26"
+E_R1_1_V_8_2018_5_W,R1_Washington_2018,R2_Toronto_2018,loss,5,washington,"April 25, 2019",Toronto,108 to 98,"Pts: DeMar DeRozan 32
+Rebs: Jonas Valančiūnas 13
+Asts: Kyle Lowry 10","Pts: John Wall 26
+Rebs: Marcin Gortat 12
+Asts: John Wall 9","Air Canada Centre, Toronto, Ontario","Referees: Marc Davis, Mark Ayotte, John Goble","Attendance: 19,987","Scoring by quarter: 24–23, 23–25, 31–31, 20–29"
+E_R1_1_V_8_2018_6_W,R1_Washington_2018,R2_Toronto_2018,loss,6,washington,"April 27, 2019",Toronto,102 to 92,"Pts: Kyle Lowry 24
+Rebs: Jonas Valančiūnas 12
+Asts: Kyle Lowry 6","Pts: Bradley Beal 32
+Rebs: Markieff Morris 15
+Asts: John Wall 8","Capital One Arena, Washington, D.C.","Referees: James Capers, Sean Corbin, Zach Zarba","Attendance: 20,356","Scoring by quarter: 20–30, 30–23, 23–25, 29–14"
+E_R1_2_V_7_2018_1_M,R1_Milwaukee_2018,R2_Boston_2018,loss,1,milwaukee,April 15,Celtics,113 to 107,"Pts: Al Horford 24
+Rebs: Al Horford 12
+Asts: three players 4 each","Pts: Giannis Antetokounmpo 35
+Rebs: Giannis Antetokounmpo 13
+Asts: Giannis Antetokounmpo 7","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Brian Forte, Jason Phillips","Attendance: 18,624","Scoring by quarter: 17–29, 30–15, 19–26, 33–29, Overtime: 8–14"
+E_R1_2_V_7_2018_2_M,R1_Milwaukee_2018,R2_Boston_2018,loss,2,milwaukee,"April 17, 2018",Celtics,120 to 106,"Pts: Jaylen Brown 30
+Rebs: Jayson Tatum 7
+Asts: Terry Rozier 8","Pts: Giannis Antetokounmpo 30
+Rebs: Giannis Antetokounmpo 9
+Asts: Giannis Antetokounmpo 8","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Mark Ayotte, Sean Wright","Attendance: 18,624","Scoring by quarter: 22–33, 29–27, 24–30, 31–30"
+E_R1_2_V_7_2018_3_M,R1_Milwaukee_2018,R2_Boston_2018,win,3,milwaukee,"April 20, 2018",Bucks,116 to 92,"Pts: Al Horford 16
+Rebs: Greg Monroe 12
+Asts: Terry Rozier 9","Pts: Khris Middleton 23
+Rebs: Khris Middleton 8
+Asts: Khris Middleton 7","Bradley Center, Milwaukee, Wisconsin","Referees: Scott Foster, Sean Corbin, Courtney Kirkland","Attendance: 18,717","Scoring by quarter: 12–27, 23–31, 32–27, 25–31"
+E_R1_2_V_7_2018_4_M,R1_Milwaukee_2018,R2_Boston_2018,win,4,milwaukee,"April 22, 2018",Bucks,104 to 102,"Pts: Jaylen Brown 34
+Rebs: Aron Baynes 11
+Asts: Terry Rozier 8","Pts: Giannis Antetokounmpo 27
+Rebs: Antetokounmpo, Parker 7 each
+Asts: Antetokounmpo, Bledsoe 5 each","Bradley Center, Milwaukee, Wisconsin","Referees: Ed Malloy, Brent Barnaky, Tom Washington","Attendance: 18,717","Scoring by quarter: 17–24, 18–27, 32–24, 35–29"
+E_R1_2_V_7_2018_5_M,R1_Milwaukee_2018,R2_Boston_2018,loss,5,milwaukee,"April 24, 2018",Celtics,92 to 87,"Pts: Al Horford 22
+Rebs: Al Horford 14
+Asts: Terry Rozier 5","Pts: Khris Middleton 23
+Rebs: Giannis Antetokounmpo 10
+Asts: Giannis Antetokounmpo 9","TD Garden, Boston, Massachusetts","Referees: Ken Mauer, Pat Fraher, James Williams","Attendance: 18,624","Scoring by quarter: 15–23, 22–25, 24–24, 26–20"
+E_R1_2_V_7_2018_6_M,R1_Milwaukee_2018,R2_Boston_2018,win,6,milwaukee,"April 26, 2018",Bucks,97 to 86,"Pts: Jayson Tatum 22
+Rebs: Al Horford 10
+Asts: Terry Rozier 5","Pts: Giannis Antetokounmpo 31
+Rebs: Giannis Antetokounmpo 14
+Asts: Matthew Dellavedova 6","Bradley Center, Milwaukee, Wisconsin","Referees: Mike Callahan, Tony Brothers, David Guthrie","Attendance: 18,717","Scoring by quarter: 24–22, 15–26, 26–26, 21–23"
+E_R1_2_V_7_2018_7_M,R1_Milwaukee_2018,R2_Boston_2018,loss,7,milwaukee,"April 28, 2018",Celtics,112 to 96,"Pts: Horford, Rozier 26 each
+Rebs: Al Horford 8
+Asts: Terry Rozier 9","Pts: Khris Middleton 32
+Rebs: Giannis Antetokounmpo 9
+Asts: Giannis Antetokounmpo 5","TD Garden, Boston, Massachusetts","Referees: Derrick Stafford, John Goble, Josh Tiven","Attendance: 18,624","Scoring by quarter: 17–30, 25–20, 25–31, 29–31"
+E_R1_3_V_6_2018_1_P,R1_Miami_2018,R2_Philadelphia_2018,loss,1,miami,"April 14, 2018",Philadelphia,130 to 103,"Pts: J. J. Redick 28
+Rebs: Ersan İlyasova 14
+Asts: Ben Simmons 14","Pts: Kelly Olynyk 26
+Rebs: Olynyk, Winslow 7 each
+Asts: Kelly Olynyk 5","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Marc Davis, Bill Kennedy, Bill Spooner","Attendance: 20,617","Scoring by quarter: 35–29, 25–27, 18–34, 25–40"
+E_R1_3_V_6_2018_2_P,R1_Miami_2018,R2_Philadelphia_2018,win,2,miami,"April 16, 2018",Miami,113 to 103,"Pts: Ben Simmons 24
+Rebs: Ersan İlyasova 11
+Asts: Ben Simmons 8","Pts: Dwyane Wade 28
+Rebs: Johnson, Wade 7 each
+Asts: Kelly Olynyk 6","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Scott Foster, Tony Brothers, Karl Lane","Attendance: 20,753","Scoring by quarter: 22–29, 34–13, 30–33, 27–28"
+E_R1_3_V_6_2018_3_P,R1_Miami_2018,R2_Philadelphia_2018,loss,3,miami,"April 19, 2018",Philadelphia,128 to 108,"Pts: Joel Embiid 23
+Rebs: Ben Simmons 12
+Asts: Ben Simmons 7","Pts: Goran Dragić 23
+Rebs: Justise Winslow 10
+Asts: Goran Dragić 8","American Airlines Arena, Miami, Florida","Referees: James Capers, Tony Brown, Kane Fitzgerald","Attendance: 19,812","Scoring by quarter: 37–33, 26–31, 33–30, 32–14"
+E_R1_3_V_6_2018_4_P,R1_Miami_2018,R2_Philadelphia_2018,loss,4,miami,"April 21, 2018",Philadelphia,106 to 102,"Pts: J. J. Redick 24
+Rebs: Ben Simmons 13
+Asts: Ben Simmons 10","Pts: Dwyane Wade 25
+Rebs: Hassan Whiteside 13
+Asts: Josh Richardson 7","American Airlines Arena, Miami, Florida","Referees: Mike Callahan, Jason Phillips, Kevin Scott","Attendance: 19,804","Scoring by quarter: 26–26, 30–35, 23–22, 27–19"
+E_R1_3_V_6_2018_5_P,R1_Miami_2018,R2_Philadelphia_2018,loss,5,miami,"April 24, 2018",Philadelphia,104 to 91,"Pts: J. J. Redick 27
+Rebs: Joel Embiid 12
+Asts: Ben Simmons 6","Pts: Kelly Olynyk 18
+Rebs: Kelly Olynyk 8
+Asts: Kelly Olynyk 6","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Derrick Stafford, Eric Lewis, Josh Tiven","Attendance: 21,171","Scoring by quarter: 21–23, 25–23, 20–34, 25–24"
+E_R1_4_V_5_2018_1_I,R1_Indiana_2018,R2_Cleveland_2018,win,1,indiana,"April 15, 2018",Pacers,98 to 80,"Pts: LeBron James 24
+Rebs: Kevin Love 17
+Asts: LeBron James 12","Pts: Victor Oladipo 32
+Rebs: Myles Turner 8
+Asts: Darren Collison 6","Quicken Loans Arena, Cleveland, Ohio","Referees: Zach Zarba, Bennie Adams, John Goble","Attendance: 20,562","Scoring by quarter: 33–14, 22–24, 18–27, 25–15"
+E_R1_4_V_5_2018_2_I,R1_Indiana_2018,R2_Cleveland_2018,loss,2,indiana,"April 18, 2018",Cavaliers ,100 to 97,"Pts: LeBron James 46
+Rebs: LeBron James 12
+Asts: LeBron James 5","Pts: Victor Oladipo 22
+Rebs: Thaddeus Young 6
+Asts: Collison, Oladipo 6 each","Quicken Loans Arena, Cleveland, Ohio","Referees: Ed Malloy, David Guthrie, Eric Lewis","Attendance: 20,562","Scoring by quarter: 18–33, 28–25, 21–16, 30–26"
+E_R1_4_V_5_2018_3_I,R1_Indiana_2018,R2_Cleveland_2018,win,3,indiana,"April 20, 2018",Pacers,92 to 90,"Pts: LeBron James 28
+Rebs: LeBron James 12
+Asts: LeBron James 8","Pts: Bojan Bogdanović 30
+Rebs: Myles Turner 10
+Asts: Victor Oladipo 7","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Derrick Stafford, Derrick Collins, Josh Tiven","Attendance: 17,923","Scoring by quarter: 31–20, 26–20, 12–23, 21–29"
+E_R1_4_V_5_2018_4_I,R1_Indiana_2018,R2_Cleveland_2018,loss,4,indiana,"April 22, 2018",Cavaliers ,104 to 100,"Pts: LeBron James 32
+Rebs: LeBron James 13
+Asts: LeBron James 7","Pts: Domantas Sabonis 19
+Rebs: Thaddeus Young 16
+Asts: Darren Collison 8","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Ken Mauer, Pat Fraher, Rodney Mott","Attendance: 17,923","Scoring by quarter: 30–24, 30–26, 20–28, 24–22"
+E_R1_4_V_5_2018_5_I,R1_Indiana_2018,R2_Cleveland_2018,loss,5,indiana,"April 25, 2018",Cavaliers ,98 to 95,"Pts: LeBron James 44
+Rebs: James, Love 10 each
+Asts: LeBron James 8","Pts: Domantas Sabonis 22
+Rebs: Victor Oladipo 12
+Asts: Cory Joseph 6","Quicken Loans Arena, Cleveland, Ohio","Referees: James Capers, Bill Kennedy, Bill Spooner","Attendance: 20,562","Scoring by quarter: 25–23, 31–26, 17–32, 22–17"
+E_R1_4_V_5_2018_6_I,R1_Indiana_2018,R2_Cleveland_2018,win,6,indiana,"April 27, 2018",Pacers,121 to 87,"Pts: LeBron James 22
+Rebs: Kevin Love 7
+Asts: LeBron James 7","Pts: Victor Oladipo 28
+Rebs: Victor Oladipo 13
+Asts: Victor Oladipo 10","Bankers Life Fieldhouse, Indianapolis, Indiana","Referees: Marc Davis, Jason Phillips, Sean Wright","Attendance: 17,923","Scoring by quarter: 26–29, 21–28, 20–35, 20–29"
+E_R1_4_V_5_2018_7_I,R1_Indiana_2018,R2_Cleveland_2018,loss,7,indiana,"April 29, 2018",Cavaliers ,105 to 101,"Pts: LeBron James 45
+Rebs: Tristan Thompson 10
+Asts: LeBron James 7","Pts: Victor Oladipo 30
+Rebs: Victor Oladipo 12
+Asts: Victor Oladipo 6","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, Tony Brothers, Kane Fitzgerald","Attendance: 20,562","Scoring by quarter: 19–31, 24–23, 31–22, 27–29"
+E_R2_1_V_4_2018_1_T,R2_Toronto_2018,R3_Cleveland_2018,loss,1,toronto,"May 1, 2018",Cavaliers ,113 to 112,"Pts: LeBron James 26
+Rebs: Kevin Love 13
+Asts: LeBron James 13","Pts: DeMar DeRozan 22
+Rebs: Jonas Valančiūnas 21
+Asts: Kyle Lowry 10","Air Canada Centre, Toronto, Ontario","Referees: Derrick Stafford, Pat Fraher, John Goble","Attendance: 19,954","Scoring by quarter: 19–33, 38–27, 25–27, 23–18, Overtime: 8–7"
+E_R2_1_V_4_2018_2_T,R2_Toronto_2018,R3_Cleveland_2018,loss,2,toronto,"May 3, 2018",Cavaliers ,128 to 110,"Pts: LeBron James 43
+Rebs: Kevin Love 11
+Asts: LeBron James 14","Pts: DeMar DeRozan 24
+Rebs: Jonas Valančiūnas 12
+Asts: Kyle Lowry 8","Air Canada Centre, Toronto, Ontario","Referees: Ken Mauer, Kane Fitzgerald, Brian Forte","Attendance: 20,127","Scoring by quarter: 26–29, 35–34, 37–24, 30–23"
+E_R2_1_V_4_2018_3_T,R2_Toronto_2018,R3_Cleveland_2018,loss,3,toronto,"May 5, 2018",Cavaliers ,105 to 103,"Pts: LeBron James 38
+Rebs: Kevin Love 16
+Asts: LeBron James 7","Pts: Kyle Lowry 27
+Rebs: Jonas Valančiūnas 11
+Asts: Kyle Lowry 7","Quicken Loans Arena, Cleveland, Ohio","Referees: Mike Callahan, Courtney Kirkland, Josh Tiven","Attendance: 20,562","Scoring by quarter: 19–24, 21–31, 25–24, 38–26"
+E_R2_1_V_4_2018_4_T,R2_Toronto_2018,R3_Cleveland_2018,loss,4,toronto,"May 7, 2018",Cavaliers ,128 to 93,"Pts: LeBron James 29
+Rebs: LeBron James 8
+Asts: LeBron James 11","Pts: Jonas Valančiūnas 18
+Rebs: DeRozan, Valančiūnas 5 each
+Asts: Kyle Lowry 10","Quicken Loans Arena, Cleveland, Ohio","Referees: Marc Davis, Tony Brown, David Guthrie","Attendance: 20,562","Scoring by quarter: 26–30, 21–33, 25–37, 21–28"
+E_R2_3_V_2_2018_1_P,R2_Philadelphia_2018,R3_Boston_2018,loss,1,philadelphia,"April 30, 2018",Celtics,117 to 101,"Pts: Terry Rozier 29
+Rebs: Terry Rozier 8
+Asts: Marcus Smart 9","Pts: Joel Embiid 31
+Rebs: Joel Embiid 13
+Asts: Ben Simmons 6","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Ed Malloy, Bill Spooner","Attendance: 18,624","Scoring by quarter: 22–25, 23–31, 30–31, 26–30"
+E_R2_3_V_2_2018_2_P,R2_Philadelphia_2018,R3_Boston_2018,loss,2,philadelphia,"May 3, 2018",Celtics,108 to 103,"Pts: Jayson Tatum 21
+Rebs: Al Horford 12
+Asts: Terry Rozier 9","Pts: J. J. Redick 23
+Rebs: Joel Embiid 14
+Asts: Ben Simmons 7","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Jason Phillips, Sean Wright","Attendance: 18,624","Scoring by quarter: 31–22, 25–29, 19–28, 28–29"
+E_R2_3_V_2_2018_3_P,R2_Philadelphia_2018,R3_Boston_2018,loss,3,philadelphia,"May 5, 2018",Celtics,101 to 98,"Pts: Jayson Tatum 24
+Rebs: Aron Baynes 10
+Asts: Jayson Tatum 4","Pts: Joel Embiid 22
+Rebs: Joel Embiid 19
+Asts: Ben Simmons 8","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Derrick Stafford, Pat Fraher, John Goble","Attendance: 20,758","Scoring by quarter: 19–20, 29–31, 21–17, 20–21, Overtime: 12–9"
+E_R2_3_V_2_2018_4_P,R2_Philadelphia_2018,R3_Boston_2018,win,4,philadelphia,"May 7, 2018",Philadelphia,103 to 92,"Pts: Jayson Tatum 20
+Rebs: Al Horford 10
+Asts: Jayson Tatum 4","Pts: Dario Šarić 25
+Rebs: Embiid, Simmons 13 each
+Asts: McConnell, Simmons 5 each","Wells Fargo Center, Philadelphia, Pennsylvania","Referees: Scott Foster, Tony Brothers, Sean Corbin","Attendance: 20,936","Scoring by quarter: 22–21, 21–26, 22–29, 27–27"
+E_R2_3_V_2_2018_5_P,R2_Philadelphia_2018,R3_Boston_2018,loss,5,philadelphia,"May 9, 2018",Celtics,114 to 112,"Pts: Jayson Tatum 25
+Rebs: Aron Baynes 9
+Asts: Marcus Smart 6","Pts: Embiid, Šarić 27 each
+Rebs: Joel Embiid 12
+Asts: McConnell, Simmons 6 each","TD Garden, Boston, Massachusetts","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,624","Scoring by quarter: 24–25, 28–36, 30–22, 30–31"
+E_R3_4_V_2_2018_1_B,R3_Boston_2018,R4_Cleveland_2018,win,1,boston,"May 13, 2018",Celtics,108 to 83,"Pts: Kevin Love 17
+Rebs: Tristan Thompson 11
+Asts: LeBron James 9","Pts: Jaylen Brown 23
+Rebs: Marcus Morris 10
+Asts: Terry Rozier 8","TD Garden, Boston, Massachusetts","Referees: Marc Davis, Pat Fraher, John Goble","Attendance: 18,624","Scoring by quarter: 18–36, 17–25, 29–17, 19–30"
+E_R3_4_V_2_2018_2_B,R3_Boston_2018,R4_Cleveland_2018,win,2,boston,"May 15, 2018",Celtics,107 to 94,"Pts: LeBron James 42
+Rebs: Kevin Love 15
+Asts: LeBron James 12","Pts: Jaylen Brown 23
+Rebs: Al Horford 10
+Asts: Marcus Smart 9","TD Garden, Boston, Massachusetts","Referees: Mike Callahan, Derrick Stafford, Sean Wright","Attendance: 18,624","Scoring by quarter: 27–23, 28–25, 22–36, 17–23"
+E_R3_4_V_2_2018_3_B,R3_Boston_2018,R4_Cleveland_2018,loss,3,boston,"May 19, 2018",Cavaliers ,116 to 86,"Pts: LeBron James 27
+Rebs: Kevin Love 14
+Asts: LeBron James 12","Pts: Jayson Tatum 18
+Rebs: Al Horford 7
+Asts: Marcus Smart 6","Quicken Loans Arena, Cleveland, Ohio","Referees: James Capers, Josh Tiven, Zach Zarba","Attendance: 20,562","Scoring by quarter: 17–32, 24–29, 22–26, 23–29"
+E_R3_4_V_2_2018_4_B,R3_Boston_2018,R4_Cleveland_2018,loss,4,boston,"May 21, 2018",Cavaliers ,111 to 102,"Pts: LeBron James 44
+Rebs: Tristan Thompson 12
+Asts: four players 3 each","Pts: Jaylen Brown 25
+Rebs: Al Horford 7
+Asts: Terry Rozier 11","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, Bill Kennedy, Eric Lewis","Attendance: 20,562","Scoring by quarter: 18–34, 35–34, 23–21, 26–22"
+E_R3_4_V_2_2018_5_B,R3_Boston_2018,R4_Cleveland_2018,win,5,boston,"May 23, 2018",Celtics,96 to 83,"Pts: LeBron James 26
+Rebs: LeBron James 10
+Asts: LeBron James 5","Pts: Jayson Tatum 24
+Rebs: Al Horford 12
+Asts: Terry Rozier 6","TD Garden, Boston, Massachusetts","Referees: Ken Mauer, Ed Malloy, Jason Phillips","Attendance: 18,624","Scoring by quarter: 19–32, 23–21, 18–23, 23–20"
+E_R3_4_V_2_2018_6_B,R3_Boston_2018,R4_Cleveland_2018,loss,6,boston,"May 25, 2018",Cavaliers ,109 to 99,"Pts: LeBron James 46
+Rebs: LeBron James 11
+Asts: LeBron James 9","Pts: Terry Rozier 28
+Rebs: Al Horford 9
+Asts: Marcus Smart 8","Quicken Loans Arena, Cleveland, Ohio","Referees: Mike Callahan, John Goble, Derrick Stafford","Attendance: 20,562","Scoring by quarter: 25–20, 18–34, 30–29, 26–26"
+E_R3_4_V_2_2018_7_B,R3_Boston_2018,R4_Cleveland_2018,loss,7,boston,"May 27, 2018",Cavaliers ,87 to 79,"Pts: LeBron James 35
+Rebs: LeBron James 15
+Asts: LeBron James 9","Pts: Jayson Tatum 24
+Rebs: Marcus Morris 12
+Asts: Marcus Smart 7","TD Garden, Boston, Massachusetts","Referees: Marc Davis, James Capers, Zach Zarba","Attendance: 18,624","Scoring by quarter: 18–26, 21–17, 20–13, 28–23"
+W_R1_1_V_8_2018_1,R1_Houston_2018,R2_Houston_2018,win,1,houston,"April 15, 2018",Rockets,104 to 101,"Pts: James Harden 44
+Rebs: Clint Capela 12
+Asts: James Harden 8","Pts: Andrew Wiggins 18
+Rebs: Karl-Anthony Towns 12
+Asts: Jeff Teague 8	","Toyota Center, Houston, Texas","Referees: Ken Mauer, Tony Brown, James Williams","Attendance: 18,055","Scoring by quarter: 21–27, 26–27, 25–22, 29–28"
+W_R1_1_V_8_2018_2,R1_Houston_2018,R2_Houston_2018,win,2,houston,"April 18, 2018",Rockets,102 to 82,"Pts: Chris Paul 27
+Rebs: Clint Capela 16
+Asts: Chris Paul 8","Pts: Nemanja Bjelica 16
+Rebs: Karl-Anthony Towns 10
+Asts: Jones, Wiggins 3 each","Toyota Center, Houston, Texas","Referees: Derrick Stafford, Pat Fraher, Mark Lindsay","Attendance: 18,055","Scoring by quarter: 23–18, 17–37, 18–25, 24–22"
+W_R1_1_V_8_2018_3,R1_Houston_2018,R2_Houston_2018,loss,3,houston,"April 21, 2018",Timberwolves,121 to 105,"Pts: James Harden 29
+Rebs: Clint Capela 11
+Asts: James Harden 7","Pts: Jimmy Butler 28
+Rebs: Karl-Anthony Towns 16
+Asts: Jeff Teague 8","Target Center, Minneapolis, Minnesota","Referees: Marc Davis, Kevin Cutler, Bill Kennedy","Attendance: 18,978","Scoring by quarter: 28–27, 23–25, 24–35, 30–34"
+W_R1_1_V_8_2018_4,R1_Houston_2018,R2_Houston_2018,win,4,houston,"April 23, 2018",Rockets,119 to 100,"Pts: James Harden 36
+Rebs: Clint Capela 17
+Asts: Chris Paul 6","Pts: Karl-Anthony Towns 22
+Rebs: Karl-Anthony Towns 15
+Asts: Butler, Teague 5 each","Target Center, Minneapolis, Minnesota","Referees: James Capers, Mark Ayotte, David Guthrie","Attendance: 18,978","Scoring by quarter: 21–21, 29–28, 50–20, 19–31"
+W_R1_1_V_8_2018_5,R1_Houston_2018,R2_Houston_2018,win,5,houston,"April 25, 2018",Rockets,122 to 104,"Pts: Clint Capela 26
+Rebs: Clint Capela 15
+Asts: James Harden 12","Pts: Karl-Anthony Towns 23
+Rebs: Karl-Anthony Towns 14
+Asts: Jeff Teague 7","Toyota Center, Houston, Texas","Referees: Zach Zarba, Brian Forte, Sean Wright","Attendance: 18,055","Scoring by quarter: 26–25, 33–30, 15–30, 30–37"
+W_R1_1_V_8_2018_1_T,R1_Minnesota_2018,R2_Houston_2018,loss,1,minnesota,"April 15, 2018",Rockets,104 to 101,"Pts: James Harden 44
+Rebs: Clint Capela 12
+Asts: James Harden 8","Pts: Andrew Wiggins 18
+Rebs: Karl-Anthony Towns 12
+Asts: Jeff Teague 8	","Toyota Center, Houston, Texas","Referees: Ken Mauer, Tony Brown, James Williams","Attendance: 18,055","Scoring by quarter: 21–27, 26–27, 25–22, 29–28"
+W_R1_1_V_8_2018_2_T,R1_Minnesota_2018,R2_Houston_2018,loss,2,minnesota,"April 18, 2018",Rockets,102 to 82,"Pts: Chris Paul 27
+Rebs: Clint Capela 16
+Asts: Chris Paul 8","Pts: Nemanja Bjelica 16
+Rebs: Karl-Anthony Towns 10
+Asts: Jones, Wiggins 3 each","Toyota Center, Houston, Texas","Referees: Derrick Stafford, Pat Fraher, Mark Lindsay","Attendance: 18,055","Scoring by quarter: 23–18, 17–37, 18–25, 24–22"
+W_R1_1_V_8_2018_3_T,R1_Minnesota_2018,R2_Houston_2018,win,3,minnesota,"April 21, 2018",Timberwolves,121 to 105,"Pts: James Harden 29
+Rebs: Clint Capela 11
+Asts: James Harden 7","Pts: Jimmy Butler 28
+Rebs: Karl-Anthony Towns 16
+Asts: Jeff Teague 8","Target Center, Minneapolis, Minnesota","Referees: Marc Davis, Kevin Cutler, Bill Kennedy","Attendance: 18,978","Scoring by quarter: 28–27, 23–25, 24–35, 30–34"
+W_R1_1_V_8_2018_4_T,R1_Minnesota_2018,R2_Houston_2018,loss,4,minnesota,"April 23, 2018",Rockets,119 to 100,"Pts: James Harden 36
+Rebs: Clint Capela 17
+Asts: Chris Paul 6","Pts: Karl-Anthony Towns 22
+Rebs: Karl-Anthony Towns 15
+Asts: Butler, Teague 5 each","Target Center, Minneapolis, Minnesota","Referees: James Capers, Mark Ayotte, David Guthrie","Attendance: 18,978","Scoring by quarter: 21–21, 29–28, 50–20, 19–31"
+W_R1_1_V_8_2018_5_T,R1_Minnesota_2018,R2_Houston_2018,loss,5,minnesota,"April 25, 2018",Rockets,122 to 104,"Pts: Clint Capela 26
+Rebs: Clint Capela 15
+Asts: James Harden 12","Pts: Karl-Anthony Towns 23
+Rebs: Karl-Anthony Towns 14
+Asts: Jeff Teague 7","Toyota Center, Houston, Texas","Referees: Zach Zarba, Brian Forte, Sean Wright","Attendance: 18,055","Scoring by quarter: 26–25, 33–30, 15–30, 30–37"
+W_R1_2_V_7_2018_1,R1_GS_2018,R2_GS_2018,win,1,goldenstate,"April 14, 2018",Warriors,113 to 92,"Pts: Klay Thompson 27
+Rebs: Durant, Green 8 each
+Asts: Draymond Green 11","Pts: Rudy Gay 15
+Rebs: Rudy Gay 6
+Asts: Pau Gasol 4","Oracle Arena, Oakland, California","Referees: James Capers, Kane Fitzgerald, Ron Garretson","Attendance: 19,596","Scoring by quarter: 17–28, 24–29, 22–29, 29–27"
+W_R1_2_V_7_2018_2,R1_GS_2018,R2_GS_2018,win,2,goldenstate,"April 16, 2018",Warriors,116 to 101,"Pts: Kevin Durant 32
+Rebs: Iguodala, McGee 7 each
+Asts: Durant, Green 6 each","Pts: LaMarcus Aldridge 34
+Rebs: LaMarcus Aldridge 12
+Asts: five players 3 each","Oracle Arena, Oakland, California","Referees: Ed Malloy, Brent Barnaky, Eric Lewis","Attendance: 19,596","Scoring by quarter: 25–23, 28–24, 22–33, 26–36"
+W_R1_2_V_7_2018_3,R1_GS_2018,R2_GS_2018,win,3,goldenstate,"April 19, 2018",Warriors,110 to 97,"Pts: Kevin Durant 26
+Rebs: Kevin Durant 9
+Asts: Draymond Green 7","Pts: LaMarcus Aldridge 18
+Rebs: LaMarcus Aldridge 10
+Asts: Aldridge, Murray 4 each","AT&T Center, San Antonio, Texas","Referees: Zach Zarba, Rodney Mott, Sean Wright","Attendance: 18,418","Scoring by quarter: 26–23, 26–23, 32–26, 26–25"
+W_R1_2_V_7_2018_4,R1_GS_2018,R2_GS_2018,loss,4,goldenstate,"April 22, 2018",Spurs,103 to 90,"Pts: Kevin Durant 34
+Rebs: Draymond Green 18
+Asts: Draymond Green 9","Pts: LaMarcus Aldridge 22
+Rebs: LaMarcus Aldridge 10
+Asts: Ginóbili, Mills 5 each","AT&T Center, San Antonio, Texas","Referees: Scott Foster, Tony Brothers, Brian Forte","Attendance: 18,418","Scoring by quarter: 22–30, 20–26, 29–21, 19–26"
+W_R1_2_V_7_2018_5,R1_GS_2018,R2_GS_2018,win,5,goldenstate,"April 24, 2018",Warriors,99 to 91,"Pts: Kevin Durant 25
+Rebs: Draymond Green 19
+Asts: Draymond Green 7","Pts: LaMarcus Aldridge 30
+Rebs: LaMarcus Aldridge 12
+Asts: Manu Ginóbili 7","Oracle Arena, Oakland, California","Referees: Mike Callahan, Tony Brown, Jason Phillips","Attendance: 19,596","Scoring by quarter: 20–22, 18–27, 27–30, 26–20"
+W_R1_2_V_7_2018_1_S,R1_SA_2018,R2_GS_2018,loss,1,spurs,"April 14, 2018",Warriors,113 to 92,"Pts: Klay Thompson 27
+Rebs: Durant, Green 8 each
+Asts: Draymond Green 11","Pts: Rudy Gay 15
+Rebs: Rudy Gay 6
+Asts: Pau Gasol 4","Oracle Arena, Oakland, California","Referees: James Capers, Kane Fitzgerald, Ron Garretson","Attendance: 19,596","Scoring by quarter: 17–28, 24–29, 22–29, 29–27"
+W_R1_2_V_7_2018_2_S,R1_SA_2018,R2_GS_2018,loss,2,spurs,"April 16, 2018",Warriors,116 to 101,"Pts: Kevin Durant 32
+Rebs: Iguodala, McGee 7 each
+Asts: Durant, Green 6 each","Pts: LaMarcus Aldridge 34
+Rebs: LaMarcus Aldridge 12
+Asts: five players 3 each","Oracle Arena, Oakland, California","Referees: Ed Malloy, Brent Barnaky, Eric Lewis","Attendance: 19,596","Scoring by quarter: 25–23, 28–24, 22–33, 26–36"
+W_R1_2_V_7_2018_3_S,R1_SA_2018,R2_GS_2018,loss,3,spurs,"April 19, 2018",Warriors,110 to 97,"Pts: Kevin Durant 26
+Rebs: Kevin Durant 9
+Asts: Draymond Green 7","Pts: LaMarcus Aldridge 18
+Rebs: LaMarcus Aldridge 10
+Asts: Aldridge, Murray 4 each","AT&T Center, San Antonio, Texas","Referees: Zach Zarba, Rodney Mott, Sean Wright","Attendance: 18,418","Scoring by quarter: 26–23, 26–23, 32–26, 26–25"
+W_R1_2_V_7_2018_4_S,R1_SA_2018,R2_GS_2018,win,4,spurs,"April 22, 2018",Spurs,103 to 90,"Pts: Kevin Durant 34
+Rebs: Draymond Green 18
+Asts: Draymond Green 9","Pts: LaMarcus Aldridge 22
+Rebs: LaMarcus Aldridge 10
+Asts: Ginóbili, Mills 5 each","AT&T Center, San Antonio, Texas","Referees: Scott Foster, Tony Brothers, Brian Forte","Attendance: 18,418","Scoring by quarter: 22–30, 20–26, 29–21, 19–26"
+W_R1_2_V_7_2018_5_S,R1_SA_2018,R2_GS_2018,loss,5,spurs,"April 24, 2018",Warriors,99 to 91,"Pts: Kevin Durant 25
+Rebs: Draymond Green 19
+Asts: Draymond Green 7","Pts: LaMarcus Aldridge 30
+Rebs: LaMarcus Aldridge 12
+Asts: Manu Ginóbili 7","Oracle Arena, Oakland, California","Referees: Mike Callahan, Tony Brown, Jason Phillips","Attendance: 19,596","Scoring by quarter: 20–22, 18–27, 27–30, 26–20"
+W_R1_3_V_6_2018_1_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,1,neworleans,"April 14, 2018",Pelicans,97 to 95,"Pts: Anthony Davis 35
+Rebs: Anthony Davis 14
+Asts: Rajon Rondo 17","Pts: C. J. McCollum 19
+Rebs: Ed Davis 13
+Asts: Damian Lillard 7","Moda Center, Portland, Oregon","Referees: Ed Malloy, Eric Lewis, Mark Lindsay","Attendance: 19,882","Scoring by quarter: 21–18, 24–18, 30–27, 22–32"
+W_R1_3_V_6_2018_2_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,2,neworleans,"April 17, 2018",Pelicans,111 to 102,"Pts: Jrue Holiday 33
+Rebs: Anthony Davis 13
+Asts: Holiday, Rondo 9 each","Pts: C. J. McCollum 22
+Rebs: Al-Farouq Aminu 15
+Asts: C. J. McCollum 6","Moda Center, Portland, Oregon","Referees: Zach Zarba, Sean Corbin, John Goble","Attendance: 20,066","Scoring by quarter: 25–23, 29–36, 33–19, 24–24"
+W_R1_3_V_6_2018_3_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,3,neworleans,"April 19, 2018",Pelicans,119 to 102,"Pts: Nikola Mirotić 30
+Rebs: Anthony Davis 11
+Asts: Rajon Rondo 11","Pts: C. J. McCollum 22
+Rebs: Al-Farouq Aminu 8
+Asts: Maurice Harkless 4","Smoothie King Center, New Orleans, Louisiana","Referees: Mike Callahan, Jason Phillips, Tom Washington","Attendance: 18,551","Scoring by quarter: 20–36, 25–28, 25–27, 32–28"
+W_R1_3_V_6_2018_4_P,R1_NewOrleans_2018,R2_NewOrleans_2018,win,4,neworleans,"April 21, 2018",Pelicans,131 to 123,"Pts: Anthony Davis 47
+Rebs: Davis, Mirotić 11 each
+Asts: Rajon Rondo 16","Pts: C. J. McCollum 38
+Rebs: Jusuf Nurkić 11
+Asts: Damian Lillard 6","Smoothie King Center, New Orleans, Louisiana","Referees: James Capers, Kane Fitzgerald, Ron Garretson","Attendance: 18,544","Scoring by quarter: 25–26, 31–32, 31–42, 36–31"
+W_R1_3_V_6_2018_1,R1_Portland_2018,R2_NewOrleans_2018,loss,1,portland,"April 14, 2018",Pelicans,97 to 95,"Pts: Anthony Davis 35
+Rebs: Anthony Davis 14
+Asts: Rajon Rondo 17","Pts: C. J. McCollum 19
+Rebs: Ed Davis 13
+Asts: Damian Lillard 7","Moda Center, Portland, Oregon","Referees: Ed Malloy, Eric Lewis, Mark Lindsay","Attendance: 19,882","Scoring by quarter: 21–18, 24–18, 30–27, 22–32"
+W_R1_3_V_6_2018_2,R1_Portland_2018,R2_NewOrleans_2018,loss,2,portland,"April 17, 2018",Pelicans,111 to 102,"Pts: Jrue Holiday 33
+Rebs: Anthony Davis 13
+Asts: Holiday, Rondo 9 each","Pts: C. J. McCollum 22
+Rebs: Al-Farouq Aminu 15
+Asts: C. J. McCollum 6","Moda Center, Portland, Oregon","Referees: Zach Zarba, Sean Corbin, John Goble","Attendance: 20,066","Scoring by quarter: 25–23, 29–36, 33–19, 24–24"
+W_R1_3_V_6_2018_3,R1_Portland_2018,R2_NewOrleans_2018,loss,3,portland,"April 19, 2018",Pelicans,119 to 102,"Pts: Nikola Mirotić 30
+Rebs: Anthony Davis 11
+Asts: Rajon Rondo 11","Pts: C. J. McCollum 22
+Rebs: Al-Farouq Aminu 8
+Asts: Maurice Harkless 4","Smoothie King Center, New Orleans, Louisiana","Referees: Mike Callahan, Jason Phillips, Tom Washington","Attendance: 18,551","Scoring by quarter: 20–36, 25–28, 25–27, 32–28"
+W_R1_3_V_6_2018_4,R1_Portland_2018,R2_NewOrleans_2018,loss,4,portland,"April 21, 2018",Pelicans,131 to 123,"Pts: Anthony Davis 47
+Rebs: Davis, Mirotić 11 each
+Asts: Rajon Rondo 16","Pts: C. J. McCollum 38
+Rebs: Jusuf Nurkić 11
+Asts: Damian Lillard 6","Smoothie King Center, New Orleans, Louisiana","Referees: James Capers, Kane Fitzgerald, Ron Garretson","Attendance: 18,544","Scoring by quarter: 25–26, 31–32, 31–42, 36–31"
+W_R1_4_V_5_2018_1,R1_Utah_2018,R2_Utah_2018,loss,1,utah,"April 15, 2018",Thunder,116 to 108,"Pts: Donovan Mitchell 27
+Rebs: Donovan Mitchell 10
+Asts: Ricky Rubio 5","Pts: Paul George 36
+Rebs: Russell Westbrook 13
+Asts: Russell Westbrook 8","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Derrick Stafford, David Guthrie, Josh Tiven","Attendance: 18,203","Scoring by quarter: 25–25, 23–29, 24–27, 36–35"
+W_R1_4_V_5_2018_2,R1_Utah_2018,R2_Utah_2018,win,2,utah,"April 18, 2018",Jazz,102 to 95,"Pts: Donovan Mitchell 28
+Rebs: Derrick Favors 16
+Asts: Ricky Rubio 9","Pts: Russell Westbrook 19
+Rebs: Paul George 10
+Asts: Russell Westbrook 13","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Ken Mauer, James Williams, Gary Zielinski","Attendance: 18,203","Scoring by quarter: 26–25, 27–21, 21–33, 28–16"
+W_R1_4_V_5_2018_3,R1_Utah_2018,R2_Utah_2018,win,3,utah,"April 21, 2018",Jazz,115 to 102,"Pts: Ricky Rubio 26
+Rebs: Rudy Gobert 12
+Asts: Ricky Rubio 10","Pts: Paul George 23
+Rebs: Russell Westbrook 11
+Asts: Russell Westbrook 9","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Zach Zarba, Bennie Adams, John Goble","Attendance: 18,306","Scoring by quarter: 30–22, 23–36, 22–31, 27–26"
+W_R1_4_V_5_2018_4,R1_Utah_2018,R2_Utah_2018,win,4,utah,"April 23, 2018",Jazz,113 to 96,"Pts: Donovan Mitchell 33
+Rebs: Rudy Gobert 10
+Asts: Ricky Rubio 8","Pts: Paul George 32
+Rebs: Russell Westbrook 14
+Asts: Russell Westbrook 3","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Marc Davis, Bill Kennedy, Bill Spooner","Attendance: 18,306","Scoring by quarter: 30–24, 22–34, 21–32, 23–23"
+W_R1_4_V_5_2018_5,R1_Utah_2018,R2_Utah_2018,loss,5,utah,"April 25, 2018",Thunder,107 to 99,"Pts: Jae Crowder 27
+Rebs: Ricky Rubio 12
+Asts: Ricky Rubio 7","Pts: Russell Westbrook 45
+Rebs: Russell Westbrook 15
+Asts: Russell Westbrook 7","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Ed Malloy, Kane Fitzgerald, Tom Washington","Attendance: 18,203","Scoring by quarter: 34–29, 22–12, 22–37, 21–29"
+W_R1_4_V_5_2018_6,R1_Utah_2018,R2_Utah_2018,loss,6,utah,"April 27, 2018",Jazz,96 to 91,"Pts: Donovan Mitchell 38
+Rebs: Rudy Gobert 13
+Asts: Joe Ingles 5","Pts: Russell Westbrook 46
+Rebs: Steven Adams 15
+Asts: Paul George 8","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Scott Foster, Ron Garretson, Eric Lewis","Attendance: 18,306","Scoring by quarter: 22–18, 19–23, 29–37, 21–18"
+W_R1_4_V_5_2018_1_,R1_OKC_2018,R2_Utah_2018,win,1,oklahoma,"April 15, 2018",Thunder,116 to 108,"Pts: Donovan Mitchell 27
+Rebs: Donovan Mitchell 10
+Asts: Ricky Rubio 5","Pts: Paul George 36
+Rebs: Russell Westbrook 13
+Asts: Russell Westbrook 8","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Derrick Stafford, David Guthrie, Josh Tiven","Attendance: 18,203","Scoring by quarter: 25–25, 23–29, 24–27, 36–35"
+W_R1_4_V_5_2018_2_,R1_OKC_2018,R2_Utah_2018,loss,2,oklahoma,"April 18, 2018",Jazz,102 to 95,"Pts: Donovan Mitchell 28
+Rebs: Derrick Favors 16
+Asts: Ricky Rubio 9","Pts: Russell Westbrook 19
+Rebs: Paul George 10
+Asts: Russell Westbrook 13","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Ken Mauer, James Williams, Gary Zielinski","Attendance: 18,203","Scoring by quarter: 26–25, 27–21, 21–33, 28–16"
+W_R1_4_V_5_2018_3_,R1_OKC_2018,R2_Utah_2018,loss,3,oklahoma,"April 21, 2018",Jazz,115 to 102,"Pts: Ricky Rubio 26
+Rebs: Rudy Gobert 12
+Asts: Ricky Rubio 10","Pts: Paul George 23
+Rebs: Russell Westbrook 11
+Asts: Russell Westbrook 9","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Zach Zarba, Bennie Adams, John Goble","Attendance: 18,306","Scoring by quarter: 30–22, 23–36, 22–31, 27–26"
+W_R1_4_V_5_2018_4_,R1_OKC_2018,R2_Utah_2018,loss,4,oklahoma,"April 23, 2018",Jazz,113 to 96,"Pts: Donovan Mitchell 33
+Rebs: Rudy Gobert 10
+Asts: Ricky Rubio 8","Pts: Paul George 32
+Rebs: Russell Westbrook 14
+Asts: Russell Westbrook 3","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Marc Davis, Bill Kennedy, Bill Spooner","Attendance: 18,306","Scoring by quarter: 30–24, 22–34, 21–32, 23–23"
+W_R1_4_V_5_2018_5_,R1_OKC_2018,R2_Utah_2018,win,5,oklahoma,"April 25, 2018",Thunder,107 to 99,"Pts: Jae Crowder 27
+Rebs: Ricky Rubio 12
+Asts: Ricky Rubio 7","Pts: Russell Westbrook 45
+Rebs: Russell Westbrook 15
+Asts: Russell Westbrook 7","Chesapeake Energy Arena, Oklahoma City, Oklahoma","Referees: Ed Malloy, Kane Fitzgerald, Tom Washington","Attendance: 18,203","Scoring by quarter: 34–29, 22–12, 22–37, 21–29"
+W_R1_4_V_5_2018_6_,R1_OKC_2018,R2_Utah_2018,loss,6,oklahoma,"April 27, 2018",Jazz,96 to 91,"Pts: Donovan Mitchell 38
+Rebs: Rudy Gobert 13
+Asts: Joe Ingles 5","Pts: Russell Westbrook 46
+Rebs: Steven Adams 15
+Asts: Paul George 8","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Scott Foster, Ron Garretson, Eric Lewis","Attendance: 18,306","Scoring by quarter: 22–18, 19–23, 29–37, 21–18"
+W_R2_1_V_5_2018_1_,R2_Houston_2018,R3_Houston_2018,win,1,houston,"April 29, 2018",Rockets,110 to 96,"Pts: James Harden 41
+Rebs: Clint Capela 12
+Asts: James Harden 7","Pts: Crowder, Mitchell 21 each
+Rebs: Rudy Gobert 9
+Asts: Ingles, Mitchell 5 each","Toyota Center, Houston, Texas","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,055","Scoring by quarter: 21–34, 18–30, 29–22, 28–24"
+W_R2_1_V_5_2018_2_,R2_Houston_2018,R3_Houston_2018,loss,2,houston,"May 2, 2018",Jazz,116 to 108,"Pts: James Harden 32
+Rebs: Clint Capela 11
+Asts: James Harden 11","Pts: Joe Ingles 27
+Rebs: Rudy Gobert 14
+Asts: Donovan Mitchell 11","Toyota Center, Houston, Texas","Referees: Scott Foster, Bennie Adams, Tony Brothers","Attendance: 18,055","Scoring by quarter: 36–28, 28–27, 22–30, 30–23"
+W_R2_1_V_5_2018_3_,R2_Houston_2018,R3_Houston_2018,win,3,houston,"May 4, 2018",Rockets,113 to 92,"Pts: Gordon, Harden 25 each
+Rebs: Clint Capela 8
+Asts: James Harden 12","Pts: Royce O'Neale 17
+Rebs: Rudy Gobert 9
+Asts: Raulzinho Neto 4","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Marc Davis, Ron Garretson, Ed Malloy","Attendance: 18,306","Scoring by quarter: 39–22, 31–18, 23–25, 20–27"
+W_R2_1_V_5_2018_4_,R2_Houston_2018,R3_Houston_2018,win,4,houston,"May 6, 2018",Rockets,100 to 87,"Pts: Chris Paul 27
+Rebs: Clint Capela 15
+Asts: Chris Paul 6","Pts: Donovan Mitchell 25
+Rebs: Rudy Gobert 10
+Asts: Joe Ingles 4","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Ken Mauer, Bill Kennedy, James Williams","Attendance: 18,306","Scoring by quarter: 30–23, 28–25, 21–17, 21–22"
+W_R2_1_V_5_2018_5_,R2_Houston_2018,R3_Houston_2018,win,5,houston,"May 8, 2018",Rockets,112 to 102,"Pts: Chris Paul 41
+Rebs: Chris Paul 7
+Asts: Chris Paul 10","Pts: Donovan Mitchell 24
+Rebs: Rudy Gobert 9
+Asts: Donovan Mitchell 9","Toyota Center, Houston, Texas","Referees: Mike Callahan, John Goble, Eric Lewis","Attendance: 18,055","Scoring by quarter: 16–21, 30–33, 32–21, 24–37"
+W_R2_1_V_5_2018_1,R2_Utah_2018,R3_Houston_2018,loss,1,utah,"April 29, 2018",Rockets,110 to 96,"Pts: James Harden 41
+Rebs: Clint Capela 12
+Asts: James Harden 7","Pts: Crowder, Mitchell 21 each
+Rebs: Rudy Gobert 9
+Asts: Ingles, Mitchell 5 each","Toyota Center, Houston, Texas","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,055","Scoring by quarter: 21–34, 18–30, 29–22, 28–24"
+W_R2_1_V_5_2018_2,R2_Utah_2018,R3_Houston_2018,win,2,utah,"May 2, 2018",Jazz,116 to 108,"Pts: James Harden 32
+Rebs: Clint Capela 11
+Asts: James Harden 11","Pts: Joe Ingles 27
+Rebs: Rudy Gobert 14
+Asts: Donovan Mitchell 11","Toyota Center, Houston, Texas","Referees: Scott Foster, Bennie Adams, Tony Brothers","Attendance: 18,055","Scoring by quarter: 36–28, 28–27, 22–30, 30–23"
+W_R2_1_V_5_2018_3,R2_Utah_2018,R3_Houston_2018,loss,3,utah,"May 4, 2018",Rockets,113 to 92,"Pts: Gordon, Harden 25 each
+Rebs: Clint Capela 8
+Asts: James Harden 12","Pts: Royce O'Neale 17
+Rebs: Rudy Gobert 9
+Asts: Raulzinho Neto 4","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Marc Davis, Ron Garretson, Ed Malloy","Attendance: 18,306","Scoring by quarter: 39–22, 31–18, 23–25, 20–27"
+W_R2_1_V_5_2018_4,R2_Utah_2018,R3_Houston_2018,loss,4,utah,"May 6, 2018",Rockets,100 to 87,"Pts: Chris Paul 27
+Rebs: Clint Capela 15
+Asts: Chris Paul 6","Pts: Donovan Mitchell 25
+Rebs: Rudy Gobert 10
+Asts: Joe Ingles 4","Vivint Smart Home Arena, Salt Lake City, Utah","Referees: Ken Mauer, Bill Kennedy, James Williams","Attendance: 18,306","Scoring by quarter: 30–23, 28–25, 21–17, 21–22"
+W_R2_1_V_5_2018_5,R2_Utah_2018,R3_Houston_2018,loss,5,utah,"May 8, 2018",Rockets,112 to 102,"Pts: Chris Paul 41
+Rebs: Chris Paul 7
+Asts: Chris Paul 10","Pts: Donovan Mitchell 24
+Rebs: Rudy Gobert 9
+Asts: Donovan Mitchell 9","Toyota Center, Houston, Texas","Referees: Mike Callahan, John Goble, Eric Lewis","Attendance: 18,055","Scoring by quarter: 16–21, 30–33, 32–21, 24–37"
+W_R2_2_V_6_2018_1,R2_GS_2018,R3_GS_2018,win,1,goldenstate,"April 28, 2018",Warriors,123 to 101,"Pts: Klay Thompson 27
+Rebs: Draymond Green 15
+Asts: Draymond Green 11","Pts: Anthony Davis 21
+Rebs: Anthony Davis 10
+Asts: Rajon Rondo 11","Oracle Arena, Oakland, California","Referees: Ken Mauer, Bill Kennedy, James Williams","Attendance: 19,596","Scoring by quarter: 34–35, 21–41, 19–27, 27–20"
+W_R2_2_V_6_2018_2,R2_GS_2018,R3_GS_2018,win,2,goldenstate,"May 1, 2018",Warriors,121 to 115,"Pts: Kevin Durant 29
+Rebs: Draymond Green 9
+Asts: Draymond Green 12","Pts: Anthony Davis 25
+Rebs: Anthony Davis 15
+Asts: Rajon Rondo 12","Oracle Arena, Oakland, California","Referees: Mike Callahan, Jason Phillips, Sean Wright","Attendance: 19,596","Scoring by quarter: 29–27, 26–31, 31–30, 29–33"
+W_R2_2_V_6_2018_3,R2_GS_2018,R3_GS_2018,loss,3,goldenstate,"May 4, 2018",Pelicans,119 to 100,"Pts: Klay Thompson 26
+Rebs: Draymond Green 12
+Asts: Draymond Green 9","Pts: Anthony Davis 33
+Rebs: Anthony Davis 18
+Asts: Rajon Rondo 21","Smoothie King Center, New Orleans, Louisiana","Referees: Scott Foster, Mark Ayotte, Eric Lewis","Attendance: 18,551","Scoring by quarter: 21–30, 35–32, 19–30, 25–27"
+W_R2_2_V_6_2018_4,R2_GS_2018,R3_GS_2018,win,4,goldenstate,"May 6, 2018",Warriors,118 to 92,"Pts: Kevin Durant 38
+Rebs: Durant, Green 9 each
+Asts: Draymond Green 9","Pts: Anthony Davis 26
+Rebs: Anthony Davis 12
+Asts: Rajon Rondo 6","Smoothie King Center, New Orleans, Louisiana","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,513","Scoring by quarter: 37–22, 24–32, 33–19, 24–19"
+W_R2_2_V_6_2018_5,R2_GS_2018,R3_GS_2018,win,5,goldenstate,"May 8, 2018",Warriors,113 to 104,"Pts: Stephen Curry 28
+Rebs: Draymond Green 14
+Asts: Draymond Green 9","Pts: Anthony Davis 34
+Rebs: Anthony Davis 19
+Asts: Jrue Holiday 11","Oracle Arena, Oakland, California","Referees: Derrick Stafford, Ed Malloy, Josh Tiven","Attendance: 19,596","Scoring by quarter: 26–32, 30–27, 19–36, 29–18"
+W_R2_2_V_6_2018_1a,R2_NewOrleans_2018,R3_GS_2018,loss,1,neworleans,"April 28, 2018",Warriors,123 to 101,"Pts: Klay Thompson 27
+Rebs: Draymond Green 15
+Asts: Draymond Green 11","Pts: Anthony Davis 21
+Rebs: Anthony Davis 10
+Asts: Rajon Rondo 11","Oracle Arena, Oakland, California","Referees: Ken Mauer, Bill Kennedy, James Williams","Attendance: 19,596","Scoring by quarter: 34–35, 21–41, 19–27, 27–20"
+W_R2_2_V_6_2018_2a,R2_NewOrleans_2018,R3_GS_2018,loss,2,neworleans,"May 1, 2018",Warriors,121 to 115,"Pts: Kevin Durant 29
+Rebs: Draymond Green 9
+Asts: Draymond Green 12","Pts: Anthony Davis 25
+Rebs: Anthony Davis 15
+Asts: Rajon Rondo 12","Oracle Arena, Oakland, California","Referees: Mike Callahan, Jason Phillips, Sean Wright","Attendance: 19,596","Scoring by quarter: 29–27, 26–31, 31–30, 29–33"
+W_R2_2_V_6_2018_3a,R2_NewOrleans_2018,R3_GS_2018,win,3,neworleans,"May 4, 2018",Pelicans,119 to 100,"Pts: Klay Thompson 26
+Rebs: Draymond Green 12
+Asts: Draymond Green 9","Pts: Anthony Davis 33
+Rebs: Anthony Davis 18
+Asts: Rajon Rondo 21","Smoothie King Center, New Orleans, Louisiana","Referees: Scott Foster, Mark Ayotte, Eric Lewis","Attendance: 18,551","Scoring by quarter: 21–30, 35–32, 19–30, 25–27"
+W_R2_2_V_6_2018_4a,R2_NewOrleans_2018,R3_GS_2018,loss,4,neworleans,"May 6, 2018",Warriors,118 to 92,"Pts: Kevin Durant 38
+Rebs: Durant, Green 9 each
+Asts: Draymond Green 9","Pts: Anthony Davis 26
+Rebs: Anthony Davis 12
+Asts: Rajon Rondo 6","Smoothie King Center, New Orleans, Louisiana","Referees: James Capers, Tom Washington, Zach Zarba","Attendance: 18,513","Scoring by quarter: 37–22, 24–32, 33–19, 24–19"
+W_R2_2_V_6_2018_5a,R2_NewOrleans_2018,R3_GS_2018,loss,5,neworleans,"May 8, 2018",Warriors,113 to 104,"Pts: Stephen Curry 28
+Rebs: Draymond Green 14
+Asts: Draymond Green 9","Pts: Anthony Davis 34
+Rebs: Anthony Davis 19
+Asts: Jrue Holiday 11","Oracle Arena, Oakland, California","Referees: Derrick Stafford, Ed Malloy, Josh Tiven","Attendance: 19,596","Scoring by quarter: 26–32, 30–27, 19–36, 29–18"
+W_R3_2_V_1_2018_1,R3_GS_2018,R4_GS_2018,win,1,goldenstate,"May 14, 2018",Warriors,119 to 106,"Pts: Kevin Durant 37
+Rebs: Draymond Green 9
+Asts: Draymond Green 9","Pts: James Harden 41
+Rebs: Chris Paul 11
+Asts: James Harden 7","Toyota Center, Houston, Texas","Referees: Scott Foster, Tony Brothers, Tom Washington","Attendance: 18,055","Scoring by quarter: 29–30, 27–26, 31–24, 32–26"
+W_R3_2_V_1_2018_2,R3_GS_2018,R4_GS_2018,loss,2,goldenstate,"May 16, 2018",Rockets,127 to 105,"Pts: Kevin Durant 38
+Rebs: Stephen Curry 7
+Asts: Stephen Curry 7","Pts: Gordon, Harden 27 each
+Rebs: Capela, Harden 10 each
+Asts: Ariza, Paul 6 each","Toyota Center, Houston, Texas","Referees: Ken Mauer, David Guthrie, Ed Malloy","Attendance: 18,119","Scoring by quarter: 21–26, 29–38, 29–31, 26–32"
+W_R3_2_V_1_2018_3,R3_GS_2018,R4_GS_2018,win,3,goldenstate,"May 20, 2018",Warriors,126 to 85,"Pts: Stephen Curry 35
+Rebs: Draymond Green 17
+Asts: Durant, Green 6 each","Pts: James Harden 20
+Rebs: Chris Paul 10
+Asts: James Harden 9	","Oracle Arena, Oakland, California","Referees: Marc Davis, Sean Corbin, Jason Phillips","Attendance: 19,596","Scoring by quarter: 22–31, 21–23, 24–34, 18–38"
+W_R3_2_V_1_2018_4,R3_GS_2018,R4_GS_2018,loss,4,goldenstate,"May 22, 2018",Rockets,95 to 92,"Pts: Stephen Curry 28
+Rebs: Draymond Green 13
+Asts: Draymond Green 8","Pts: James Harden 30
+Rebs: P. J. Tucker 16
+Asts: Harden, Paul 4 each","Oracle Arena, Oakland, California","Referees: Mike Callahan, Kane Fitzgerald, Derrick Stafford","Attendance: 19,596","Scoring by quarter: 19–28, 34–18, 17–34, 25–12"
+W_R3_2_V_1_2018_5,R3_GS_2018,R4_GS_2018,loss,5,goldenstate,"May 24, 2018",Rockets,98 to 94,"Pts: Kevin Durant 29
+Rebs: Draymond Green 15
+Asts: Stephen Curry 6","Pts: Eric Gordon 24
+Rebs: Clint Capela 14
+Asts: Chris Paul 6","Toyota Center, Houston, Texas","Referees: James Capers, Eric Lewis, Zach Zarba","Attendance: 18,208","Scoring by quarter: 17–23, 28–22, 27–26, 22–27"
+W_R3_2_V_1_2018_6,R3_GS_2018,R4_GS_2018,win,6,goldenstate,"May 26, 2018",Warriors,115 to 86,"Pts: Klay Thompson 35
+Rebs: Draymond Green 10
+Asts: Draymond Green 9","Pts: James Harden 32
+Rebs: Clint Capela 15
+Asts: James Harden 9","Oracle Arena, Oakland, California","Referees: Ken Mauer, David Guthrie, Ed Malloy","Attendance: 19,596","Scoring by quarter: 39–22, 22–29, 16–33, 9–31"
+W_R3_2_V_1_2018_7,R3_GS_2018,R4_GS_2018,win,7,goldenstate,"May 28, 2018",Warriors,101 to 92,"Pts: Kevin Durant 34
+Rebs: Draymond Green 13
+Asts: Stephen Curry 10","Pts: James Harden 32
+Rebs: P. J. Tucker 12
+Asts: Gordon, Harden 6 each","Toyota Center, Houston, Texas","Referees: Scott Foster, Mike Callahan, Derrick Stafford","Attendance: 18,055","Scoring by quarter: 19–24, 24–30, 33–15, 25–23"
+W_R3_2_V_1_2018_1a,R3_Houston_2018,R4_GS_2018,loss,1,houston,"May 14, 2018",Warriors,119 to 106,"Pts: Kevin Durant 37
+Rebs: Draymond Green 9
+Asts: Draymond Green 9","Pts: James Harden 41
+Rebs: Chris Paul 11
+Asts: James Harden 7","Toyota Center, Houston, Texas","Referees: Scott Foster, Tony Brothers, Tom Washington","Attendance: 18,055","Scoring by quarter: 29–30, 27–26, 31–24, 32–26"
+W_R3_2_V_1_2018_2a,R3_Houston_2018,R4_GS_2018,win,2,houston,"May 16, 2018",Rockets,127 to 105,"Pts: Kevin Durant 38
+Rebs: Stephen Curry 7
+Asts: Stephen Curry 7","Pts: Gordon, Harden 27 each
+Rebs: Capela, Harden 10 each
+Asts: Ariza, Paul 6 each","Toyota Center, Houston, Texas","Referees: Ken Mauer, David Guthrie, Ed Malloy","Attendance: 18,119","Scoring by quarter: 21–26, 29–38, 29–31, 26–32"
+W_R3_2_V_1_2018_3a,R3_Houston_2018,R4_GS_2018,loss,3,houston,"May 20, 2018",Warriors,126 to 85,"Pts: Stephen Curry 35
+Rebs: Draymond Green 17
+Asts: Durant, Green 6 each","Pts: James Harden 20
+Rebs: Chris Paul 10
+Asts: James Harden 9	","Oracle Arena, Oakland, California","Referees: Marc Davis, Sean Corbin, Jason Phillips","Attendance: 19,596","Scoring by quarter: 22–31, 21–23, 24–34, 18–38"
+W_R3_2_V_1_2018_4a,R3_Houston_2018,R4_GS_2018,win,4,houston,"May 22, 2018",Rockets,95 to 92,"Pts: Stephen Curry 28
+Rebs: Draymond Green 13
+Asts: Draymond Green 8","Pts: James Harden 30
+Rebs: P. J. Tucker 16
+Asts: Harden, Paul 4 each","Oracle Arena, Oakland, California","Referees: Mike Callahan, Kane Fitzgerald, Derrick Stafford","Attendance: 19,596","Scoring by quarter: 19–28, 34–18, 17–34, 25–12"
+W_R3_2_V_1_2018_5a,R3_Houston_2018,R4_GS_2018,win,5,houston,"May 24, 2018",Rockets,98 to 94,"Pts: Kevin Durant 29
+Rebs: Draymond Green 15
+Asts: Stephen Curry 6","Pts: Eric Gordon 24
+Rebs: Clint Capela 14
+Asts: Chris Paul 6","Toyota Center, Houston, Texas","Referees: James Capers, Eric Lewis, Zach Zarba","Attendance: 18,208","Scoring by quarter: 17–23, 28–22, 27–26, 22–27"
+W_R3_2_V_1_2018_6a,R3_Houston_2018,R4_GS_2018,loss,6,houston,"May 26, 2018",Warriors,115 to 86,"Pts: Klay Thompson 35
+Rebs: Draymond Green 10
+Asts: Draymond Green 9","Pts: James Harden 32
+Rebs: Clint Capela 15
+Asts: James Harden 9","Oracle Arena, Oakland, California","Referees: Ken Mauer, David Guthrie, Ed Malloy","Attendance: 19,596","Scoring by quarter: 39–22, 22–29, 16–33, 9–31"
+W_R3_2_V_1_2018_7a,R3_Houston_2018,R4_GS_2018,loss,7,houston,"May 28, 2018",Warriors,101 to 92,"Pts: Kevin Durant 34
+Rebs: Draymond Green 13
+Asts: Stephen Curry 10","Pts: James Harden 32
+Rebs: P. J. Tucker 12
+Asts: Gordon, Harden 6 each","Toyota Center, Houston, Texas","Referees: Scott Foster, Mike Callahan, Derrick Stafford","Attendance: 18,055","Scoring by quarter: 19–24, 24–30, 33–15, 25–23"
+F_2018_1,R5_GS_2018,R5_GS_2018,win,1,goldenstate,"May 31, 2018",Warriors,124 to 114,"Pts: Stephen Curry 29
+Rebs: Draymond Green 11
+Asts: Green, Curry 9 each","Pts: LeBron James 51
+Rebs: Kevin Love 13
+Asts: LeBron James 8","Oracle Arena, Oakland, California","Referees: Ken Mauer, Tony Brothers, Ed Malloy","Attendance: 19,596","Scoring by quarter: 30–29, 26–27, 22–28, 29–23, Overtime: 7–17"
+F_2018_2,R4_GS_2018,R5_GS_2018,win,2,goldenstate,"June 3, 2018",Warriors,122 to 103,"Pts: Stephen Curry 33
+Rebs: Kevin Durant 9
+Asts: Stephen Curry 8","Pts: LeBron James 29
+Rebs: Kevin Love 10
+Asts: LeBron James 13","Oracle Arena, Oakland, California","Referees: Mike Callahan, David Guthrie, Derrick Stafford","Attendance: 19,596","Scoring by quarter: 28–32, 18–27, 34–31, 23–32"
+F_2018_3,R4_GS_2018,R5_GS_2018,win,3,goldenstate,"June 6, 2018",Warriors,110 to 102,"Pts: Kevin Durant 43
+Rebs: Kevin Durant 13
+Asts: Draymond Green 9","Pts: Lebron James 33
+Rebs: Kevin Love 13
+Asts: Lebron James 11","Quicken Loans Arena, Cleveland, Ohio","Referees: Marc Davis, John Goble, Zach Zarba","Attendance: 20,562","Scoring by quarter: 28–29, 24–29, 31–23, 27–21"
+F_2018_4,R4_GS_2018,R5_GS_2018,win,4,goldenstate,"June 8, 2018",Warriors,108 to 85,"Pts: Stephen Curry 37
+Rebs: Kevin Durant 12
+Asts: Kevin Durant 10","Pts: LeBron James 23
+Rebs: Kevin Love 9
+Asts: LeBron James 8","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, James Capers, Jason Phillips","Attendance: 20,562","Scoring by quarter: 34–25, 27–27, 25–13, 22–20"
+F_2018_1a,R4_Cleveland_2018,R5_GS_2018,loss,1,cleveland,"May 31, 2018",Warriors,124 to 114,"Pts: Stephen Curry 29
+Rebs: Draymond Green 11
+Asts: Green, Curry 9 each","Pts: LeBron James 51
+Rebs: Kevin Love 13
+Asts: LeBron James 8","Oracle Arena, Oakland, California","Referees: Ken Mauer, Tony Brothers, Ed Malloy","Attendance: 19,596","Scoring by quarter: 30–29, 26–27, 22–28, 29–23, Overtime: 7–17"
+F_2018_2a,R4_Cleveland_2018,R5_GS_2018,loss,2,cleveland,"June 3, 2018",Warriors,122 to 103,"Pts: Stephen Curry 33
+Rebs: Kevin Durant 9
+Asts: Stephen Curry 8","Pts: LeBron James 29
+Rebs: Kevin Love 10
+Asts: LeBron James 13","Oracle Arena, Oakland, California","Referees: Mike Callahan, David Guthrie, Derrick Stafford","Attendance: 19,596","Scoring by quarter: 28–32, 18–27, 34–31, 23–32"
+F_2018_3a,R4_Cleveland_2018,R5_GS_2018,loss,3,cleveland,"June 6, 2018",Warriors,110 to 102,"Pts: Kevin Durant 43
+Rebs: Kevin Durant 13
+Asts: Draymond Green 9","Pts: Lebron James 33
+Rebs: Kevin Love 13
+Asts: Lebron James 11","Quicken Loans Arena, Cleveland, Ohio","Referees: Marc Davis, John Goble, Zach Zarba","Attendance: 20,562","Scoring by quarter: 28–29, 24–29, 31–23, 27–21"
+F_2018_4a,R4_Cleveland_2018,R5_GS_2018,loss,4,cleveland,"June 8, 2018",Warriors,108 to 85,"Pts: Stephen Curry 37
+Rebs: Kevin Durant 12
+Asts: Kevin Durant 10","Pts: LeBron James 23
+Rebs: Kevin Love 9
+Asts: LeBron James 8","Quicken Loans Arena, Cleveland, Ohio","Referees: Scott Foster, James Capers, Jason Phillips","Attendance: 20,562","Scoring by quarter: 34–25, 27–27, 25–13, 22–20"
